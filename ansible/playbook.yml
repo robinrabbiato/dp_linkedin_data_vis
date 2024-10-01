@@ -43,7 +43,7 @@
         files:
           - "{{ docker_compose_file | basename }}"
         state: present
-        env_file: "{{ env_file }}"
+        env_files: "{{ env_file }}"
 
     - name: Wait for PostgreSQL to become ready
       ansible.builtin.wait_for:
@@ -103,4 +103,3 @@
       ansible.builtin.debug:
         msg: "SQL Error: {{ init_query_result.msg }}"
       when: init_query_result.failed
-
