@@ -8,6 +8,7 @@
     db_password: securepassword123
     postgres_db: govtech_network
     postgres_user: admin
+    venv_path: ./myenv
 
   tasks:
     - name: Create .env file
@@ -19,14 +20,15 @@
           POSTGRES_USER={{ postgres_user }}
 
     - name: Create virtual environment
-      command: python3 -m venv ./myenv
+      command: python3 -m venv {{ venv_path }}
       args:
-        creates: ./myenv
+        creates: "{{ venv_path }}"
 
     - name: Install psycopg2
       pip:
         name: psycopg2-binary
-        virtualenv: "./myenv"
+        virtualenv: "{{ venv_path }}"
+        state: present
 
     - name: Run docker-compose up
       community.docker.docker_compose_v2:
