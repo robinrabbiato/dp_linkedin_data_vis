@@ -1,0 +1,283 @@
+2024-09-23 13:14:33,163 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:14:33,163 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:14:43,210 - logger - INFO - Cookies saved successfully to linkedin_cookies.json
+2024-09-23 13:14:43,211 - logger - INFO - Cookies successfully loaded from Firefox and saved
+2024-09-23 13:14:43,211 - logger - INFO - Cookies loaded from Firefox and saved.
+2024-09-23 13:14:43,211 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:14:43,211 - logger - WARNING - No 'firefox' cookie set found.
+2024-09-23 13:14:43,211 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:17:01,229 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:17:01,229 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:17:01,229 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:17:01,230 - logger - INFO - Existing cookie sets: ['firefox']
+2024-09-23 13:17:01,230 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:17:01,230 - logger - WARNING - No 'firefox' cookie set found.
+2024-09-23 13:17:01,230 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:17:03,987 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:17:03,987 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:17:03,987 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:17:03,987 - logger - INFO - Existing cookie sets: ['firefox']
+2024-09-23 13:17:03,988 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:17:03,988 - logger - WARNING - No 'firefox' cookie set found.
+2024-09-23 13:17:03,988 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:17:58,102 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:17:58,102 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:17:59,938 - logger - INFO - Cookies saved successfully to linkedin_cookies.json
+2024-09-23 13:17:59,938 - logger - INFO - Cookies successfully loaded from Firefox and saved
+2024-09-23 13:17:59,938 - logger - INFO - Cookies loaded from Firefox and saved.
+2024-09-23 13:17:59,938 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:17:59,939 - logger - INFO - Cookie jar created for 'firefox'.
+2024-09-23 13:17:59,939 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:18:10,623 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:18:10,623 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:18:12,454 - logger - INFO - Cookies saved successfully to linkedin_cookies.json
+2024-09-23 13:18:12,454 - logger - INFO - Cookies successfully loaded from Firefox and saved
+2024-09-23 13:18:12,454 - logger - INFO - Cookies loaded from Firefox and saved.
+2024-09-23 13:18:12,454 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:18:12,454 - logger - INFO - Cookie jar created for 'firefox'.
+2024-09-23 13:18:12,454 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:18:21,413 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:18:21,413 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:18:21,413 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:18:21,413 - logger - INFO - Existing cookie sets: ['firefox']
+2024-09-23 13:18:21,413 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:18:21,413 - logger - INFO - Cookie jar created for 'firefox'.
+2024-09-23 13:18:21,413 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:24:49,731 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:24:49,732 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:24:49,732 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:24:49,732 - logger - INFO - No valid cookies found. Attempting to load from Firefox.
+2024-09-23 13:24:49,741 - logger - INFO - Cookies saved successfully to linkedin_cookies.json
+2024-09-23 13:24:49,741 - logger - INFO - Cookies successfully loaded from Firefox and saved
+2024-09-23 13:24:49,741 - logger - INFO - Cookies loaded from Firefox and saved.
+2024-09-23 13:24:49,741 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:24:49,742 - logger - INFO - Cookie jar created for 'firefox'.
+2024-09-23 13:24:49,742 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:25:06,168 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:25:06,168 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:25:06,168 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:25:06,168 - logger - INFO - Existing cookie sets: ['firefox']
+2024-09-23 13:25:06,168 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:25:06,169 - logger - INFO - Cookie jar created for 'firefox'.
+2024-09-23 13:25:06,169 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:31:04,533 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:31:04,533 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:31:04,538 - logger - INFO - No valid cookies found.
+2024-09-23 13:31:07,669 - logger - INFO - Cookies saved successfully to linkedin_cookies.json
+2024-09-23 13:31:07,669 - logger - INFO - Cookies successfully loaded from Firefox and saved
+2024-09-23 13:31:07,669 - logger - INFO - Cookies loaded from Firefox and saved.
+2024-09-23 13:31:07,669 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:31:07,669 - logger - INFO - Cookie jar created for 'firefox'.
+2024-09-23 13:31:07,669 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:31:11,763 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:31:11,764 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:31:11,764 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:31:11,764 - logger - INFO - Existing cookie sets: ['firefox']
+2024-09-23 13:31:11,764 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-23 13:31:11,764 - logger - INFO - Cookie jar created for 'firefox'.
+2024-09-23 13:31:11,764 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:31:46,892 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:31:46,892 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:31:46,892 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:31:46,892 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 13:31:46,893 - logger - WARNING - Cookie set 'firefox' not found
+2024-09-23 13:31:46,893 - logger - WARNING - No 'firefox' cookie set found in existing cookies.
+2024-09-23 13:31:46,893 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:42:11,405 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:42:11,405 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:42:11,405 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:42:11,405 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 13:42:11,405 - logger - WARNING - Cookie set 'firefox' not found
+2024-09-23 13:42:11,405 - logger - WARNING - No 'firefox' cookie set found in existing cookies.
+2024-09-23 13:42:11,405 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:43:48,238 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:43:48,239 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:43:48,239 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:43:48,239 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 13:43:48,239 - logger - WARNING - Cookie set 'firefox' not found
+2024-09-23 13:43:48,239 - logger - WARNING - No 'firefox' cookie set found in existing cookies.
+2024-09-23 13:43:48,239 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 13:43:48,239 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:45:03,292 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:45:03,292 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:45:03,292 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:45:03,292 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 13:45:03,292 - logger - WARNING - Cookie set 'firefox' not found
+2024-09-23 13:45:03,293 - logger - WARNING - No 'firefox' cookie set found in existing cookies.
+2024-09-23 13:45:03,293 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 13:45:03,293 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:46:33,306 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:46:33,306 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:46:33,306 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:46:33,306 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 13:46:33,306 - logger - INFO - Existing cookies found
+2024-09-23 13:46:33,306 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 13:46:33,306 - logger - WARNING - Cookie set 'firefox' not found
+2024-09-23 13:46:33,307 - logger - WARNING - No 'firefox' cookie set found in existing cookies.
+2024-09-23 13:46:33,307 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 13:46:33,307 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:46:56,592 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:46:56,592 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:46:56,593 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:46:56,593 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 13:46:56,593 - logger - INFO - Existing cookies found
+2024-09-23 13:46:56,593 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 13:46:56,593 - logger - WARNING - Cookie set 'firefox' not found
+2024-09-23 13:46:56,593 - logger - WARNING - No 'firefox' cookie set found in existing cookies.
+2024-09-23 13:46:56,593 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 13:46:56,593 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:47:46,306 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:47:46,306 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:47:46,306 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:47:46,307 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 13:47:46,307 - logger - INFO - Existing cookies found
+2024-09-23 13:47:46,307 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 13:47:46,307 - logger - WARNING - Cookie set 'firefox' not found
+2024-09-23 13:47:46,307 - logger - WARNING - No 'firefox' cookie set found in existing cookies.
+2024-09-23 13:47:46,307 - logger - INFO - LinkedIn scraper finished
+2024-09-23 13:55:23,725 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 13:55:23,725 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 13:55:23,725 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 13:55:23,725 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 13:55:23,725 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:08:21,862 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:08:21,863 - logger - INFO - Iterate accounts while scraping: True
+2024-09-23 14:08:21,863 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:08:21,863 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:08:21,863 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 14:08:21,863 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:18:02,774 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:18:02,775 - logger - INFO - Iterate accounts while scraping: True
+2024-09-23 14:18:02,775 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:18:02,775 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:18:02,775 - logger - INFO - Existing cookie sets: ['fox']
+2024-09-23 14:18:02,775 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:18:02,775 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:18:22,424 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 14:18:22,425 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 14:18:22,425 - logger - INFO - Starting scraping with multiple accounts
+2024-09-23 14:18:22,425 - logger - INFO - Scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 14:18:22,425 - logger - WARNING - Cookie iterator not set up. Call setup_cookie_iterator() first.
+2024-09-23 14:18:22,425 - logger - WARNING - No more cookie jars available. Stopping iteration.
+2024-09-23 14:18:22,425 - logger - INFO - LinkedIn scraper finished
+2024-09-23 14:41:40,987 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:41:40,987 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:41:40,988 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:42:32,149 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:42:32,149 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:42:32,150 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:43:08,174 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:43:08,175 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:43:08,175 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:43:08,175 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:43:08,175 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:43:08,175 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:43:08,175 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:43:08,175 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 14:43:08,175 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 14:43:08,175 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 14:43:08,175 - logger - INFO - LinkedIn scraper finished
+2024-09-23 14:46:17,660 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:46:17,661 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:46:17,661 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:46:17,661 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:46:17,662 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:46:17,662 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:46:17,662 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:46:17,662 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 14:46:17,663 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 14:46:17,663 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 14:46:17,663 - logger - INFO - LinkedIn scraper finished
+2024-09-23 14:55:18,583 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:55:18,584 - logger - INFO - Iterate accounts while scraping: True
+2024-09-23 14:55:18,584 - logger - INFO - Input path: input.csv
+2024-09-23 14:55:18,584 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:55:18,584 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:55:18,584 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:55:18,584 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:55:18,584 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:55:18,584 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:55:18,585 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 14:55:18,585 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 14:55:18,585 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 14:55:18,585 - logger - INFO - LinkedIn scraper finished
+2024-09-23 14:55:41,324 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:55:41,325 - logger - INFO - Iterate accounts while scraping: True
+2024-09-23 14:55:41,325 - logger - INFO - Input path: iinput.csv
+2024-09-23 14:55:41,325 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:55:41,325 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:55:41,325 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:55:41,325 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:55:41,325 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:55:41,325 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:55:41,325 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 14:55:41,326 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 14:55:41,326 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 14:55:41,326 - logger - INFO - LinkedIn scraper finished
+2024-09-23 14:58:03,449 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:58:03,449 - logger - INFO - Iterate accounts while scraping: True
+2024-09-23 14:58:03,449 - logger - INFO - Input path: ../../data/input.csv
+2024-09-23 14:58:03,450 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:58:03,450 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:58:03,450 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:58:03,450 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:58:03,450 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:58:03,450 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:58:03,450 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 14:58:03,451 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 14:58:03,451 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 14:58:03,451 - logger - INFO - LinkedIn scraper finished
+2024-09-23 14:58:39,485 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:58:39,485 - logger - INFO - Iterate accounts while scraping: True
+2024-09-23 14:58:39,486 - logger - INFO - Input path: ../../data/input.csv
+2024-09-23 14:58:39,486 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:58:39,486 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:58:39,486 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:58:39,486 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:58:39,486 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:58:39,486 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:58:39,487 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 14:58:39,487 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 14:58:39,487 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 14:58:39,487 - logger - INFO - LinkedIn scraper finished
+2024-09-23 14:59:06,703 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:59:06,704 - logger - INFO - Iterate accounts while scraping: True
+2024-09-23 14:59:06,705 - logger - INFO - Input path: ../../data/input.csv
+2024-09-23 14:59:06,705 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:59:06,705 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:59:06,705 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:59:06,705 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:59:06,706 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:59:06,706 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:59:06,706 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 14:59:06,706 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 14:59:06,706 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 14:59:06,706 - logger - INFO - LinkedIn scraper finished
+2024-09-23 14:59:39,859 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 14:59:39,859 - logger - INFO - Iterate accounts while scraping: True
+2024-09-23 14:59:39,860 - logger - INFO - Script directory: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/src/scraper
+2024-09-23 14:59:39,860 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-23 14:59:39,860 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:59:39,860 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 14:59:39,860 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 14:59:39,860 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:59:39,860 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:59:39,860 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 14:59:39,861 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 14:59:39,861 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 14:59:39,861 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 14:59:39,861 - logger - INFO - LinkedIn scraper finished
+2024-09-23 20:40:34,605 - logger - INFO - Starting LinkedIn scraper
+2024-09-23 20:40:34,605 - logger - INFO - Iterate accounts while scraping: True
+2024-09-23 20:40:34,605 - logger - INFO - Script directory: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/src/scraper
+2024-09-23 20:40:34,605 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-23 20:40:34,605 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 20:40:34,605 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-23 20:40:34,606 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-23 20:40:34,606 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 20:40:34,606 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 20:40:34,606 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-23 20:40:34,606 - logger - INFO - Cookie jar created for 'fox'
+2024-09-23 20:40:34,606 - logger - INFO - Cookie jar successfully initialized.
+2024-09-23 20:40:34,606 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-23 20:40:34,606 - logger - INFO - LinkedIn scraper finished

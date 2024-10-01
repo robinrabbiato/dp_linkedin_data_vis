@@ -1,0 +1,476 @@
+2024-09-26 12:13:05,607 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 12:13:05,607 - logger - INFO - Iterate accounts while scraping: True
+2024-09-26 12:13:05,607 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:13:05,609 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:13:05,610 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 12:13:05,610 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:13:05,611 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 12:13:05,611 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:13:05,611 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:13:05,611 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:13:05,611 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:13:07,344 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 12:13:07,344 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 12:13:07,345 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:13:07,345 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:13:07,345 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 12:13:07,352 - logger - INFO - Successfully initialized LinkedIn API with provided cookies
+2024-09-26 12:13:07,352 - logger - INFO - Processing profile 1: https://www.linkedin.com/company/and-effect/
+2024-09-26 12:13:07,353 - logger - INFO - Profile and-effect has already been scraped. Skipping.
+2024-09-26 12:13:07,353 - logger - INFO - Skipped profile: https://www.linkedin.com/company/and-effect/
+2024-09-26 12:13:07,353 - logger - INFO - Processing profile 2: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 12:13:07,353 - logger - INFO - Profile johannes-j-müller-757511101 has already been scraped. Skipping.
+2024-09-26 12:13:07,353 - logger - INFO - Skipped profile: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 12:13:07,353 - logger - INFO - Processing profile 3: https://www.linkedin.com/in/jan-kamb-4937bbb6/
+2024-09-26 12:13:07,353 - logger - INFO - Profile jan-kamb-4937bbb6 has already been scraped. Skipping.
+2024-09-26 12:13:07,353 - logger - INFO - Skipped profile: https://www.linkedin.com/in/jan-kamb-4937bbb6/
+2024-09-26 12:13:07,353 - logger - INFO - Processing profile 4: https://www.linkedin.com/in/jan-dix-30550314a/
+2024-09-26 12:13:07,353 - logger - INFO - Profile jan-dix-30550314a has already been scraped. Skipping.
+2024-09-26 12:13:07,353 - logger - INFO - Skipped profile: https://www.linkedin.com/in/jan-dix-30550314a/
+2024-09-26 12:13:07,353 - logger - INFO - Processing profile 5: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:13:07,353 - logger - INFO - Profile 1000digital has already been scraped. Skipping.
+2024-09-26 12:13:07,353 - logger - INFO - Skipped profile: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:13:07,353 - logger - INFO - Processing profile 6: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:13:07,353 - logger - INFO - Profile 1000digital has already been scraped. Skipping.
+2024-09-26 12:13:07,353 - logger - INFO - Skipped profile: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:13:07,354 - logger - INFO - Processing profile 7: https://www.linkedin.com/company/1648factory/about
+2024-09-26 12:13:07,354 - logger - INFO - Profile 1648factory has already been scraped. Skipping.
+2024-09-26 12:13:07,354 - logger - INFO - Skipped profile: https://www.linkedin.com/company/1648factory/about
+2024-09-26 12:13:07,354 - logger - INFO - Processing profile 8: https://www.linkedin.com/company/l21s/
+2024-09-26 12:13:07,354 - logger - INFO - Profile l21s has already been scraped. Skipping.
+2024-09-26 12:13:07,354 - logger - INFO - Skipped profile: https://www.linkedin.com/company/l21s/
+2024-09-26 12:13:07,354 - logger - INFO - Processing profile 9: https://www.linkedin.com/company/5-prozent/
+2024-09-26 12:13:07,354 - logger - INFO - Profile 5-prozent has already been scraped. Skipping.
+2024-09-26 12:13:07,354 - logger - INFO - Skipped profile: https://www.linkedin.com/company/5-prozent/
+2024-09-26 12:13:07,354 - logger - INFO - Processing profile 10: https://www.linkedin.com/company/abcalis/
+2024-09-26 12:13:07,354 - logger - INFO - Profile abcalis has already been scraped. Skipping.
+2024-09-26 12:13:07,354 - logger - INFO - Skipped profile: https://www.linkedin.com/company/abcalis/
+2024-09-26 12:13:07,354 - logger - INFO - Processing profile 11: https://www.linkedin.com/in/laila-al-halabi-frenzel-749a59199/
+2024-09-26 12:13:07,354 - logger - INFO - Profile laila-al-halabi-frenzel-749a59199 has already been scraped. Skipping.
+2024-09-26 12:13:07,354 - logger - INFO - Skipped profile: https://www.linkedin.com/in/laila-al-halabi-frenzel-749a59199/
+2024-09-26 12:13:07,354 - logger - INFO - Processing profile 12: https://www.linkedin.com/company/academa-gmbh/
+2024-09-26 12:13:07,354 - logger - INFO - Profile academa-gmbh has already been scraped. Skipping.
+2024-09-26 12:13:07,354 - logger - INFO - Skipped profile: https://www.linkedin.com/company/academa-gmbh/
+2024-09-26 12:13:07,354 - logger - INFO - Processing profile 13: https://www.linkedin.com/in/luishesemann/
+2024-09-26 12:13:10,958 - logger - INFO - Successfully scraped profile: luishesemann
+2024-09-26 12:13:10,958 - logger - INFO - Saving data to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:13:10,971 - logger - INFO - Data successfully saved to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:13:10,971 - logger - INFO - Profile luishesemann successfully added to scraped data.
+2024-09-26 12:13:10,972 - logger - INFO - Current number of scraped profiles: 12
+2024-09-26 12:13:10,972 - logger - INFO - Output file size: 161118 bytes
+2024-09-26 12:13:10,972 - logger - INFO - Profile luishesemann scraped and saved.
+2024-09-26 12:13:10,972 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/in/luishesemann/
+2024-09-26 12:13:10,972 - logger - INFO - Processing profile 14: https://www.linkedin.com/in/maltebrettel/
+2024-09-26 12:13:15,536 - logger - INFO - Successfully scraped profile: maltebrettel
+2024-09-26 12:13:15,537 - logger - INFO - Saving data to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:13:15,562 - logger - INFO - Data successfully saved to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:13:15,562 - logger - INFO - Profile maltebrettel successfully added to scraped data.
+2024-09-26 12:13:15,562 - logger - INFO - Current number of scraped profiles: 13
+2024-09-26 12:13:15,562 - logger - INFO - Output file size: 168931 bytes
+2024-09-26 12:13:15,562 - logger - INFO - Profile maltebrettel scraped and saved.
+2024-09-26 12:13:15,562 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/in/maltebrettel/
+2024-09-26 12:13:15,563 - logger - INFO - Processing profile 15: https://www.linkedin.com/in/patrickneubert-4/
+2024-09-26 12:13:19,872 - logger - INFO - Successfully scraped profile: patrickneubert-4
+2024-09-26 12:13:19,873 - logger - INFO - Saving data to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:13:19,895 - logger - INFO - Data successfully saved to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:13:19,895 - logger - INFO - Profile patrickneubert-4 successfully added to scraped data.
+2024-09-26 12:13:19,895 - logger - INFO - Current number of scraped profiles: 14
+2024-09-26 12:13:19,895 - logger - INFO - Output file size: 178218 bytes
+2024-09-26 12:13:19,895 - logger - INFO - Profile patrickneubert-4 scraped and saved.
+2024-09-26 12:13:19,895 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/in/patrickneubert-4/
+2024-09-26 12:13:19,896 - logger - INFO - Processing profile 16: https://www.linkedin.com/company/silberdrahttelefon/
+2024-09-26 12:21:00,743 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 12:21:00,743 - logger - INFO - Iterate accounts while scraping: True
+2024-09-26 12:21:00,743 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:21:00,744 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:21:00,745 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 12:21:00,745 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:21:00,745 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 12:21:00,745 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:21:00,745 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:21:00,745 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:21:00,746 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:21:02,177 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 12:21:02,178 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 12:21:02,178 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:21:02,179 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:21:02,179 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 12:21:02,180 - logger - INFO - Successfully initialized LinkedIn API with provided cookies
+2024-09-26 12:21:39,581 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 12:21:39,581 - logger - INFO - Iterate accounts while scraping: True
+2024-09-26 12:21:39,582 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:21:39,583 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:21:39,584 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 12:21:39,584 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:21:39,585 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 12:21:39,585 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:21:39,585 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:21:39,585 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:21:39,585 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:21:41,347 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 12:21:41,348 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 12:21:41,349 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:21:41,349 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:21:41,350 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 12:21:41,352 - logger - INFO - Successfully initialized LinkedIn API with provided cookies
+2024-09-26 12:23:07,391 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 12:23:07,391 - logger - INFO - Iterate accounts while scraping: True
+2024-09-26 12:23:07,392 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:23:07,393 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:23:07,394 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 12:23:07,394 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:23:07,394 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 12:23:07,394 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:23:07,394 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:23:07,394 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:23:07,395 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:23:09,141 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 12:23:09,141 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 12:23:09,142 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:23:09,143 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:23:09,143 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 12:23:09,148 - logger - INFO - Successfully initialized LinkedIn API with provided cookies
+2024-09-26 12:24:12,717 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 12:24:12,717 - logger - INFO - Iterate accounts while scraping: True
+2024-09-26 12:24:12,717 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:24:12,718 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:24:12,719 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 12:24:12,720 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:24:12,720 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 12:24:12,720 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:24:12,720 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:24:12,720 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:24:12,720 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:24:14,285 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 12:24:14,285 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 12:24:14,287 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:24:14,287 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:24:14,287 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 12:24:14,289 - logger - INFO - Successfully initialized LinkedIn API with provided cookies
+2024-09-26 12:24:14,289 - logger - INFO - Processing profile 1: https://www.linkedin.com/company/and-effect/
+2024-09-26 12:24:14,290 - logger - INFO - Profile and-effect has already been scraped. Skipping.
+2024-09-26 12:24:14,290 - logger - INFO - Skipped profile: https://www.linkedin.com/company/and-effect/
+2024-09-26 12:24:14,290 - logger - INFO - Processing profile 2: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 12:24:14,290 - logger - INFO - Profile johannes-j-müller-757511101 has already been scraped. Skipping.
+2024-09-26 12:24:14,290 - logger - INFO - Skipped profile: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 12:24:14,290 - logger - INFO - Processing profile 3: https://www.linkedin.com/in/jan-kamb-4937bbb6/
+2024-09-26 12:24:14,290 - logger - INFO - Profile jan-kamb-4937bbb6 has already been scraped. Skipping.
+2024-09-26 12:24:14,290 - logger - INFO - Skipped profile: https://www.linkedin.com/in/jan-kamb-4937bbb6/
+2024-09-26 12:24:14,290 - logger - INFO - Processing profile 4: https://www.linkedin.com/in/jan-dix-30550314a/
+2024-09-26 12:24:14,290 - logger - INFO - Profile jan-dix-30550314a has already been scraped. Skipping.
+2024-09-26 12:24:14,290 - logger - INFO - Skipped profile: https://www.linkedin.com/in/jan-dix-30550314a/
+2024-09-26 12:24:14,290 - logger - INFO - Processing profile 5: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:24:14,290 - logger - INFO - Profile 1000digital has already been scraped. Skipping.
+2024-09-26 12:24:14,290 - logger - INFO - Skipped profile: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:24:14,290 - logger - INFO - Processing profile 6: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:24:14,290 - logger - INFO - Profile 1000digital has already been scraped. Skipping.
+2024-09-26 12:24:14,290 - logger - INFO - Skipped profile: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:24:14,290 - logger - INFO - Processing profile 7: https://www.linkedin.com/company/1648factory/about
+2024-09-26 12:24:14,290 - logger - INFO - Profile 1648factory has already been scraped. Skipping.
+2024-09-26 12:24:14,290 - logger - INFO - Skipped profile: https://www.linkedin.com/company/1648factory/about
+2024-09-26 12:24:14,291 - logger - INFO - Processing profile 8: https://www.linkedin.com/company/l21s/
+2024-09-26 12:24:14,291 - logger - INFO - Profile l21s has already been scraped. Skipping.
+2024-09-26 12:24:14,291 - logger - INFO - Skipped profile: https://www.linkedin.com/company/l21s/
+2024-09-26 12:24:14,291 - logger - INFO - Processing profile 9: https://www.linkedin.com/company/5-prozent/
+2024-09-26 12:24:14,291 - logger - INFO - Profile 5-prozent has already been scraped. Skipping.
+2024-09-26 12:24:14,291 - logger - INFO - Skipped profile: https://www.linkedin.com/company/5-prozent/
+2024-09-26 12:24:14,291 - logger - INFO - Processing profile 10: https://www.linkedin.com/company/abcalis/
+2024-09-26 12:24:14,291 - logger - INFO - Profile abcalis has already been scraped. Skipping.
+2024-09-26 12:24:14,291 - logger - INFO - Skipped profile: https://www.linkedin.com/company/abcalis/
+2024-09-26 12:24:14,291 - logger - INFO - Processing profile 11: https://www.linkedin.com/in/laila-al-halabi-frenzel-749a59199/
+2024-09-26 12:24:14,291 - logger - INFO - Profile laila-al-halabi-frenzel-749a59199 has already been scraped. Skipping.
+2024-09-26 12:24:14,291 - logger - INFO - Skipped profile: https://www.linkedin.com/in/laila-al-halabi-frenzel-749a59199/
+2024-09-26 12:24:14,291 - logger - INFO - Processing profile 12: https://www.linkedin.com/company/academa-gmbh/
+2024-09-26 12:24:14,291 - logger - INFO - Profile academa-gmbh has already been scraped. Skipping.
+2024-09-26 12:24:14,291 - logger - INFO - Skipped profile: https://www.linkedin.com/company/academa-gmbh/
+2024-09-26 12:24:14,291 - logger - INFO - Processing profile 13: https://www.linkedin.com/in/luishesemann/
+2024-09-26 12:24:14,291 - logger - INFO - Profile luishesemann has already been scraped. Skipping.
+2024-09-26 12:24:14,291 - logger - INFO - Skipped profile: https://www.linkedin.com/in/luishesemann/
+2024-09-26 12:24:14,291 - logger - INFO - Processing profile 14: https://www.linkedin.com/in/maltebrettel/
+2024-09-26 12:24:14,291 - logger - INFO - Profile maltebrettel has already been scraped. Skipping.
+2024-09-26 12:24:14,291 - logger - INFO - Skipped profile: https://www.linkedin.com/in/maltebrettel/
+2024-09-26 12:24:14,291 - logger - INFO - Processing profile 15: https://www.linkedin.com/in/patrickneubert-4/
+2024-09-26 12:24:14,291 - logger - INFO - Profile patrickneubert-4 has already been scraped. Skipping.
+2024-09-26 12:24:14,291 - logger - INFO - Skipped profile: https://www.linkedin.com/in/patrickneubert-4/
+2024-09-26 12:24:14,291 - logger - INFO - Processing profile 16: https://www.linkedin.com/company/silberdrahttelefon/
+2024-09-26 12:24:18,724 - logger - INFO - Successfully scraped company: silberdrahttelefon
+2024-09-26 12:24:18,724 - logger - INFO - Saving data to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:24:18,742 - logger - INFO - Data successfully saved to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:24:18,743 - logger - INFO - Profile silberdrahttelefon successfully added to scraped data.
+2024-09-26 12:24:18,743 - logger - INFO - Current number of scraped profiles: 15
+2024-09-26 12:24:18,743 - logger - INFO - Output file size: 189288 bytes
+2024-09-26 12:24:18,743 - logger - INFO - Profile silberdrahttelefon scraped and saved.
+2024-09-26 12:24:18,743 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/company/silberdrahttelefon/
+2024-09-26 12:24:18,743 - logger - INFO - Processing profile 17: https://www.linkedin.com/in/susannesteigler/
+2024-09-26 12:28:07,543 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 12:28:07,543 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:28:07,544 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 12:28:07,546 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 12:28:07,546 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:28:07,546 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 12:28:07,546 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 12:28:07,546 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:28:07,546 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:28:07,547 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:28:09,014 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 12:28:09,014 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 12:28:09,016 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 12:28:09,016 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 12:28:09,016 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 12:28:09,018 - logger - INFO - Successfully initialized LinkedIn API with provided cookies
+2024-09-26 12:28:09,018 - logger - INFO - Processing profile 1: https://www.linkedin.com/company/and-effect/
+2024-09-26 12:28:09,019 - logger - INFO - Profile and-effect has already been scraped. Skipping.
+2024-09-26 12:28:09,019 - logger - INFO - Skipped profile: https://www.linkedin.com/company/and-effect/
+2024-09-26 12:28:09,019 - logger - INFO - Processing profile 2: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 12:28:09,019 - logger - INFO - Profile johannes-j-müller-757511101 has already been scraped. Skipping.
+2024-09-26 12:28:09,019 - logger - INFO - Skipped profile: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 12:28:09,019 - logger - INFO - Processing profile 3: https://www.linkedin.com/in/jan-kamb-4937bbb6/
+2024-09-26 12:28:09,019 - logger - INFO - Profile jan-kamb-4937bbb6 has already been scraped. Skipping.
+2024-09-26 12:28:09,019 - logger - INFO - Skipped profile: https://www.linkedin.com/in/jan-kamb-4937bbb6/
+2024-09-26 12:28:09,019 - logger - INFO - Processing profile 4: https://www.linkedin.com/in/jan-dix-30550314a/
+2024-09-26 12:28:09,019 - logger - INFO - Profile jan-dix-30550314a has already been scraped. Skipping.
+2024-09-26 12:28:09,019 - logger - INFO - Skipped profile: https://www.linkedin.com/in/jan-dix-30550314a/
+2024-09-26 12:28:09,019 - logger - INFO - Processing profile 5: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:28:09,019 - logger - INFO - Profile 1000digital has already been scraped. Skipping.
+2024-09-26 12:28:09,019 - logger - INFO - Skipped profile: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:28:09,019 - logger - INFO - Processing profile 6: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:28:09,019 - logger - INFO - Profile 1000digital has already been scraped. Skipping.
+2024-09-26 12:28:09,019 - logger - INFO - Skipped profile: https://www.linkedin.com/company/1000digital/
+2024-09-26 12:28:09,020 - logger - INFO - Processing profile 7: https://www.linkedin.com/company/1648factory/about
+2024-09-26 12:28:09,020 - logger - INFO - Profile 1648factory has already been scraped. Skipping.
+2024-09-26 12:28:09,020 - logger - INFO - Skipped profile: https://www.linkedin.com/company/1648factory/about
+2024-09-26 12:28:09,020 - logger - INFO - Processing profile 8: https://www.linkedin.com/company/l21s/
+2024-09-26 12:28:09,020 - logger - INFO - Profile l21s has already been scraped. Skipping.
+2024-09-26 12:28:09,020 - logger - INFO - Skipped profile: https://www.linkedin.com/company/l21s/
+2024-09-26 12:28:09,020 - logger - INFO - Processing profile 9: https://www.linkedin.com/company/5-prozent/
+2024-09-26 12:28:09,020 - logger - INFO - Profile 5-prozent has already been scraped. Skipping.
+2024-09-26 12:28:09,020 - logger - INFO - Skipped profile: https://www.linkedin.com/company/5-prozent/
+2024-09-26 12:28:09,020 - logger - INFO - Processing profile 10: https://www.linkedin.com/company/abcalis/
+2024-09-26 12:28:09,020 - logger - INFO - Profile abcalis has already been scraped. Skipping.
+2024-09-26 12:28:09,020 - logger - INFO - Skipped profile: https://www.linkedin.com/company/abcalis/
+2024-09-26 12:28:09,020 - logger - INFO - Processing profile 11: https://www.linkedin.com/in/laila-al-halabi-frenzel-749a59199/
+2024-09-26 12:28:09,020 - logger - INFO - Profile laila-al-halabi-frenzel-749a59199 has already been scraped. Skipping.
+2024-09-26 12:28:09,020 - logger - INFO - Skipped profile: https://www.linkedin.com/in/laila-al-halabi-frenzel-749a59199/
+2024-09-26 12:28:09,020 - logger - INFO - Processing profile 12: https://www.linkedin.com/company/academa-gmbh/
+2024-09-26 12:28:09,020 - logger - INFO - Profile academa-gmbh has already been scraped. Skipping.
+2024-09-26 12:28:09,020 - logger - INFO - Skipped profile: https://www.linkedin.com/company/academa-gmbh/
+2024-09-26 12:28:09,020 - logger - INFO - Processing profile 13: https://www.linkedin.com/in/luishesemann/
+2024-09-26 12:28:09,021 - logger - INFO - Profile luishesemann has already been scraped. Skipping.
+2024-09-26 12:28:09,021 - logger - INFO - Skipped profile: https://www.linkedin.com/in/luishesemann/
+2024-09-26 12:28:09,021 - logger - INFO - Processing profile 14: https://www.linkedin.com/in/maltebrettel/
+2024-09-26 12:28:09,021 - logger - INFO - Profile maltebrettel has already been scraped. Skipping.
+2024-09-26 12:28:09,021 - logger - INFO - Skipped profile: https://www.linkedin.com/in/maltebrettel/
+2024-09-26 12:28:09,021 - logger - INFO - Processing profile 15: https://www.linkedin.com/in/patrickneubert-4/
+2024-09-26 12:28:09,021 - logger - INFO - Profile patrickneubert-4 has already been scraped. Skipping.
+2024-09-26 12:28:09,021 - logger - INFO - Skipped profile: https://www.linkedin.com/in/patrickneubert-4/
+2024-09-26 12:28:09,021 - logger - INFO - Processing profile 16: https://www.linkedin.com/company/silberdrahttelefon/
+2024-09-26 12:28:09,021 - logger - INFO - Profile silberdrahttelefon has already been scraped. Skipping.
+2024-09-26 12:28:09,021 - logger - INFO - Skipped profile: https://www.linkedin.com/company/silberdrahttelefon/
+2024-09-26 12:28:09,021 - logger - INFO - Processing profile 17: https://www.linkedin.com/in/susannesteigler/
+2024-09-26 12:28:11,584 - logger - INFO - Successfully scraped profile: susannesteigler
+2024-09-26 12:28:11,584 - logger - INFO - Saving data to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:28:11,601 - logger - INFO - Data successfully saved to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 12:28:11,601 - logger - INFO - Profile susannesteigler successfully added to scraped data.
+2024-09-26 12:28:11,601 - logger - INFO - Current number of scraped profiles: 16
+2024-09-26 12:28:11,601 - logger - INFO - Output file size: 254416 bytes
+2024-09-26 12:28:11,601 - logger - INFO - Profile susannesteigler scraped and saved.
+2024-09-26 12:28:11,601 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/in/susannesteigler/
+2024-09-26 12:28:11,601 - logger - INFO - Processing profile 18: https://linkedin.com/in/theresahenze/
+2024-09-26 14:01:48,815 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:01:48,816 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:01:48,817 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:01:48,818 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:01:48,818 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:01:48,819 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:01:48,819 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:01:48,819 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:01:48,819 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:01:48,819 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:01:50,561 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:01:50,562 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:01:50,563 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:01:50,563 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:01:50,564 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:02:46,986 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:02:46,986 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:02:46,987 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:02:46,988 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:02:46,989 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:02:46,989 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:02:46,989 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:02:46,989 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:02:46,989 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:02:46,989 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:02:48,639 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:02:48,640 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:02:48,641 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:02:48,641 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:02:48,641 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:04:52,593 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:04:52,593 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:04:52,594 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:04:52,595 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:04:52,596 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:04:52,596 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:04:52,596 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:04:52,596 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:04:52,596 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:04:52,596 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:04:54,129 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:04:54,129 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:04:54,130 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:04:54,130 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:04:54,131 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:09:58,955 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:09:58,956 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:09:58,956 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:09:58,957 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:09:58,958 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:09:58,958 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:09:58,958 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:09:58,958 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:09:58,958 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:09:58,958 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:10:00,619 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:10:00,619 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:10:00,621 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:10:00,621 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:10:00,621 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:10:47,800 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:10:47,800 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:10:47,801 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:10:47,802 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:10:47,802 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:10:47,803 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:10:47,803 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:10:47,803 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:10:47,803 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:10:47,803 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:10:49,343 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:10:49,343 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:10:49,344 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:10:49,344 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:10:49,345 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:11:24,982 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:11:24,982 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:11:24,983 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:11:24,985 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:11:24,985 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:11:24,986 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:11:24,986 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:11:24,986 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:11:24,986 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:11:24,986 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:11:26,544 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:11:26,544 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:11:26,545 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:11:26,545 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:11:26,545 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:11:48,268 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:11:48,269 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:11:48,270 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:11:48,271 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:11:48,271 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:11:48,271 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:11:48,271 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:11:48,272 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:11:48,272 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:11:48,272 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:11:49,782 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:11:49,782 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:11:49,784 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:11:49,784 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:11:49,785 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:12:20,131 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:12:20,131 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:12:20,132 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:12:20,133 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:12:20,134 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:12:20,134 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:12:20,134 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:12:20,134 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:12:20,134 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:12:20,134 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:12:21,893 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:12:21,894 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:12:21,896 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:12:21,896 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:12:21,897 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:12:21,899 - logger - INFO - Successfully initialized LinkedIn API with provided cookies
+2024-09-26 14:12:21,899 - logger - INFO - Processing profile 1: https://www.linkedin.com/company/and-effect/
+2024-09-26 14:12:25,366 - logger - INFO - Successfully scraped profile for company profile: and-effect
+2024-09-26 14:12:25,366 - logger - INFO - Successfully scraped posts for company profile: and-effect
+2024-09-26 14:12:25,367 - logger - INFO - Profile and-effect and its posts scraped.
+2024-09-26 14:12:25,367 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/company/and-effect/
+2024-09-26 14:12:25,367 - logger - INFO - Profile and-effect successfully added to scraped data.
+2024-09-26 14:12:25,367 - logger - INFO - Posts for profile and-effect successfully added to scraped data.
+2024-09-26 14:12:25,367 - logger - INFO - Profile and-effect and its posts saved.
+2024-09-26 14:12:40,881 - logger - INFO - Processing profile 2: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 14:12:46,191 - logger - INFO - Successfully scraped profile for user profile: johannes-j-müller-757511101
+2024-09-26 14:12:46,192 - logger - INFO - Successfully scraped posts for user profile: johannes-j-müller-757511101
+2024-09-26 14:12:46,192 - logger - INFO - Profile johannes-j-müller-757511101 and its posts scraped.
+2024-09-26 14:12:46,192 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 14:12:46,192 - logger - INFO - Profile johannes-j-müller-757511101 successfully added to scraped data.
+2024-09-26 14:12:46,192 - logger - INFO - Posts for profile johannes-j-müller-757511101 successfully added to scraped data.
+2024-09-26 14:12:46,192 - logger - INFO - Profile johannes-j-müller-757511101 and its posts saved.
+2024-09-26 14:16:33,145 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:16:33,146 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:16:33,147 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:16:33,148 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:16:33,148 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:16:33,148 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:16:33,149 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:16:33,149 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:16:33,149 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:16:33,149 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:16:34,672 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:16:34,672 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:16:34,673 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:16:34,674 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:16:34,674 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:16:34,674 - logger - INFO - Successfully initialized LinkedIn API with provided cookies
+2024-09-26 14:16:34,674 - logger - INFO - Processing profile 1: https://www.linkedin.com/company/and-effect/
+2024-09-26 14:16:40,048 - logger - INFO - Successfully scraped profile for company profile: and-effect
+2024-09-26 14:16:40,048 - logger - INFO - Successfully scraped posts for company profile: and-effect
+2024-09-26 14:16:40,048 - logger - INFO - Profile and-effect and its posts scraped.
+2024-09-26 14:16:40,048 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/company/and-effect/
+2024-09-26 14:16:40,048 - logger - INFO - Profile and-effect successfully added to scraped data.
+2024-09-26 14:16:40,049 - logger - INFO - Posts for profile and-effect successfully added to scraped data.
+2024-09-26 14:16:40,049 - logger - INFO - Profile and-effect and its posts saved.
+2024-09-26 14:29:35,574 - logger - INFO - Starting LinkedIn scraper
+2024-09-26 14:29:35,575 - logger - INFO - CSV path set to: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:29:35,576 - logger - INFO - Successfully loaded 756 rows from /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-26 14:29:35,577 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-26 14:29:35,578 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:29:35,578 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-26 14:29:35,578 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-26 14:29:35,578 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:29:35,578 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:29:35,578 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:29:37,200 - logger - INFO - LinkedIn response status code: 200
+2024-09-26 14:29:37,200 - logger - INFO - LinkedIn cookies are valid
+2024-09-26 14:29:37,202 - logger - INFO - Cookie jar created for 'firefox'
+2024-09-26 14:29:37,202 - logger - INFO - Listing all stored cookie keys: ['firefox']
+2024-09-26 14:29:37,202 - logger - INFO - Cookie jar successfully initialized.
+2024-09-26 14:29:37,203 - logger - INFO - Successfully initialized LinkedIn API with provided cookies
+2024-09-26 14:29:37,204 - logger - INFO - Processing profile 1: https://www.linkedin.com/company/and-effect/
+2024-09-26 14:29:41,635 - logger - INFO - Successfully scraped profile for company profile: and-effect
+2024-09-26 14:29:41,635 - logger - INFO - Successfully scraped posts for company profile: and-effect
+2024-09-26 14:29:41,635 - logger - INFO - Profile and-effect and its posts scraped.
+2024-09-26 14:29:41,636 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/company/and-effect/
+2024-09-26 14:29:41,636 - logger - INFO - Saving profiles data to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 14:29:41,641 - logger - INFO - Profiles data successfully saved to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 14:29:41,641 - logger - INFO - Saving posts data to ../../data/linkedin_posts.json
+2024-09-26 14:29:41,644 - logger - INFO - Posts data successfully saved to ../../data/linkedin_posts.json
+2024-09-26 14:29:41,644 - logger - INFO - Profile and-effect and its posts scraped.
+2024-09-26 14:29:57,928 - logger - INFO - Processing profile 2: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 14:30:00,212 - logger - INFO - Successfully scraped profile for user profile: johannes-j-müller-757511101
+2024-09-26 14:30:00,212 - logger - INFO - Successfully scraped posts for user profile: johannes-j-müller-757511101
+2024-09-26 14:30:00,213 - logger - INFO - Profile johannes-j-müller-757511101 and its posts scraped.
+2024-09-26 14:30:00,213 - logger - INFO - Successfully scraped profile: https://www.linkedin.com/in/johannes-j-müller-757511101/
+2024-09-26 14:30:00,213 - logger - INFO - Saving profiles data to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 14:30:00,227 - logger - INFO - Profiles data successfully saved to /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/linkedin_profiles.json
+2024-09-26 14:30:00,227 - logger - INFO - Saving posts data to ../../data/linkedin_posts.json
+2024-09-26 14:30:00,230 - logger - INFO - Posts data successfully saved to ../../data/linkedin_posts.json
+2024-09-26 14:30:00,230 - logger - INFO - Profile johannes-j-müller-757511101 and its posts scraped.
+2024-09-26 14:30:10,145 - logger - INFO - Processing profile 3: https://www.linkedin.com/in/jan-kamb-4937bbb6/

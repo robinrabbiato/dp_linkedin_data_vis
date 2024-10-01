@@ -1,0 +1,106 @@
+{
+  "firefox": [
+    {
+      "name": "li_gc",
+      "value": "MTswOzE3MjcyNTU2MjI7MjswMjGDl8zxKd4wcyysyQclEKClv1VbEFgG8mzGqHOH9MDUKQ==",
+      "domain": ".linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "nkeF3KXnhoY3juF5jEAuo29M1t6BCiJQ9pjCRguvFaA-1727255623-1.0.1.1-JPh3d3CbjjINVymLC1Y5pXZ0lw1uY95F2TgL9AoP7dnuFoRgUIHbbjIxR_nEZswMz3.q0IGAqmHI8IpvsyI8hQ",
+      "domain": ".linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "liap",
+      "value": "true",
+      "domain": ".linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&4612fe3c-5b7d-44a0-8e6c-4afa97cd9137\"",
+      "domain": ".linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "li_mc",
+      "value": "MTsyMTsxNzI3MjU1NzQ4OzI7MDIxaaORwPH5aG7fitXiq6Djsd1QPiphjhTylF8H2lHpHKk=",
+      "domain": ".linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=VB23:s=V:r=V:a=V:p=V:g=5233:u=10:x=1:i=1727255748:t=1727342036:v=2:sig=AQGvd93bivg0MehZLZ4z1_44UhYpIzyE\"",
+      "domain": ".linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "dfpfpt",
+      "value": "d35de91c4a33426c865c0bd9b4f1695f",
+      "domain": ".linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "lang",
+      "value": "v=2&lang=de-de",
+      "domain": ".linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "fptctx2",
+      "value": "taBcrIH61PuCVH7eNCyH0AHEYHVht29NHm46S5qgUjY0Bu9k%252bey8W8UVP2WeAdRp%252flPhRQ9PyE5%252fouUxhl0F%252b5rLKED9Jc3l0UiXwP%252f%252f8JJN2jb7bXuQBJkrkhgzlPNopC1VpuJRuiineW5ORjYdzDAUKnw5%252bOHC80Ph8BpetOBBOjOuaN7TZ4ty%252byEQ2oRZxOZUsrFVuxNEhulXr3JTtGiuRnUZUVBZJGYBpAp1B7jEUg56LHon8fJEOZlOqdxVV3zBuCqWELLKulKJReLzhPvP2SiHoyGEwfT2xS6XdiAwWl3aRpEK27XUebem%252fnGULjdLE4tym0nkuwREzmdAoxJXin77UZE7HbKTuR4LhAo%253d",
+      "domain": ".linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "li_alerts",
+      "value": "e30=",
+      "domain": "www.linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "li_rm",
+      "value": "AQGMGeS0GWcaKgAAAZIodqKs3jO4S8GxxxSCR3RDxjE8wMOTfNIRucHDvQn8noiHychWk7gCcoJ-nZnX-qLNarXgQJvQxuFpbxqrChWQKAPbk-3iKFpTU-_I",
+      "domain": ".www.linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "li_at",
+      "value": "AQEDAVJgQ8sBcliUAAABkih3HHgAAAGSTIOgeFYAGafJx240mL4N30VmJElC9zE6gKxALi_iMLN2II48-YUNuUyq6VafbxVCjEbKk4D02t0ScUh5hnI-yQxm_ZpNB-eH2l5L6PfGRfwtDXDvdb0q1mVZ",
+      "domain": ".www.linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "\"ajax:5949721251334488963\"",
+      "domain": ".www.linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&20240925091342f44490c3-7051-4138-8f5a-100c9bf1d1a1AQFFXvYlRy41khQJ_eFetPfImCBu20c1\"",
+      "domain": ".www.linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "timezone",
+      "value": "Europe/Berlin",
+      "domain": ".www.linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "li_theme",
+      "value": "light",
+      "domain": ".www.linkedin.com",
+      "path": "/"
+    },
+    {
+      "name": "li_theme_set",
+      "value": "app",
+      "domain": ".www.linkedin.com",
+      "path": "/"
+    }
+  ]
+}

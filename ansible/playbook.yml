@@ -1,0 +1,83 @@
+---
+- name: Initialize GovTech Network Database
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  vars:
+    db_password: securepassword123
+    postgres_db: govtech_network
+    postgres_user: admin
+
+  tasks:
+    - name: Create .env file
+      copy:
+        dest: ../.env
+        content: |
+          DB_PASSWORD={{ db_password }}
+          POSTGRES_DB={{ postgres_db }}
+          POSTGRES_USER={{ postgres_user }}
+
+    - name: Run docker-compose up
+      community.docker.docker_compose_v2:
+        project_src: ..
+        files:
+          - docker-compose.yml
+        state: present
+        env_files: .env
+
+    - name: Wait for PostgreSQL to become ready
+      wait_for:
+        host: localhost
+        port: 5432
+        delay: 10
+        timeout: 60
+
+    - name: Wait for PostgreSQL to be healthy
+      community.docker.docker_container_info:
+        name: linkedin_network-db-1
+      register: result
+      until: result.container.State.Health.Status == "healthy"
+      retries: 30
+      delay: 10
+
+    - name: Read SQL script content
+      ansible.builtin.slurp:
+        src: "../sql/create_schema.sql"
+      register: sql_script
+
+    # - name: Create database schema
+    #   community.postgresql.postgresql_query:
+    #     db: "{{ postgres_db }}"
+    #     login_host: db
+    #     login_user: "{{ postgres_user }}"
+    #     login_password: "{{ db_password }}"
+    #     query: "{{ sql_script['content'] | b64decode }}"
+
+    - name: Create database schema
+      community.postgresql.postgresql_query:
+        db: "{{ postgres_db }}"
+        login_host: localhost
+        login_user: "{{ postgres_user }}"
+        login_password: "{{ db_password }}"
+        query: "{{ sql_script['content'] | b64decode }}"
+      register: query_result
+      ignore_errors: yes
+
+    - name: Display SQL error if any
+      debug:
+        msg: "SQL Error: {{ query_result.msg }}"
+      when: query_result is failed
+
+    - name: Read initial data SQL script content
+      ansible.builtin.slurp:
+        src: "empty_init.sql"
+      register: init_sql_script
+
+    - name: Create initial data
+      community.postgresql.postgresql_query:
+        db: localhost
+        login_host: db
+        login_user: "{{ postgres_user }}"
+        login_password: "{{ db_password }}"
+        query: "{{ init_sql_script['content'] | b64decode }}"

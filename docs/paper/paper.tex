@@ -1,0 +1,311 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage[backend=biber,style=authoryear]{biblatex}
+\addbibresource{refs.bib}
+\usepackage{titlesec}
+
+\addbibresource{refs.bib}
+%\usepackage{natbib}
+\usepackage[
+    left = \flqq{},% 
+    right = \frqq{},% 
+    leftsub = \flq{},% 
+    rightsub = \frq{} %
+]{dirtytalk}
+\geometry{a4paper,left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\title{GovTech Netzwerk: Eine netzwerkbasierte Untersuchung des GovTech-Ökosystems in Deutschland}
+\author{Robin Dörnemann}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Analyse und Kartierung des GovTech-Ökosystems in Deutschland: Eine netzwerkbasierte Untersuchung der Verbindungen Unternehmen und Gründern im Bereich der Verwaltungstechnologien.
+\end{abstract}
+
+\tableofcontents
+
+\section{Einleitung}
+\subsection{Definition von GovTech}
+Um eine fundierte Analyse des GovTech-Ökosystems durchführen zu können, ist es zunächst erforderlich, den Begriff "GovTech" präzise zu definieren und abzugrenzen. In der wissenschaftlichen Literatur und der Praxis existieren verschiedene Ansätze zur Begriffsbestimmung, die sich in Nuancen unterscheiden. Für die vorliegende Arbeit wird die Definition von Niehaves et al. als Ausgangspunkt gewählt:
+
+\say{\say{GovTech} als Begriff beschreibt die Zusammenarbeit von Technologie-orientierten Start-ups (<10 Jahre) und dem öffentlichen Sektor, vor allem Verwaltungen.}\\ \parencite{Niehaves2024}\\ 
+
+Diese Definition bietet einen klaren Rahmen für die Untersuchung, bedarf jedoch einer näheren Betrachtung und Kontextualisierung. Zunächst ist hervorzuheben, dass GovTech explizit auf die Kooperation zwischen jungen, innovativen Unternehmen und öffentlichen Einrichtungen abzielt. Dies grenzt GovTech von traditionellen IT-Dienstleistern für den öffentlichen Sektor ab und unterstreicht den innovativen Charakter des Konzepts. Die Altersgrenze von zehn Jahren für Start-ups ist ein wichtiges Kriterium, das die Dynamik und Agilität des GovTech-Sektors betont. Es reflektiert die Tatsache, dass dieser Bereich noch relativ jung ist und sich in einer Phase rasanter Entwicklung befindet.
+
+
+\subsection{Relevanz des Themas}
+Die Digitalisierung der öffentlichen Verwaltung stellt eine zentrale Herausforderung für den modernen Staat dar. Um dieser zu begegnen, hat sich in Deutschland ein GovTech-Ökosystem entwickelt – ein Netzwerk von Akteuren, die innovative Lösungen für den öffentlichen Sektor entwickeln und implementieren. 
+
+Die Entwicklung von Lösungen für die digitale Transformation im öffentlichen Sektor weist im Vergleich zur Privatwirtschaft einige Besonderheiten auf. \parencite{ThePoliticalEconomyofGovTech} Während die öffentliche Verwaltung oft durch langsamere Prozesse aufgrund komplexer Zuständigkeiten und Fachverfahren gekennzeichnet ist \parencite{Bogumil2019}, stehen GovTechs darüber hinaus vor zusätzlichen Herausforderungen. Mit einem maximalen Alter von etwa 10 Jahren steht die GovTech-Akteure im Gegenwind zur traditionellen Trägheit des öffentlichen Sektors. Gleichzeitig besteht ein massiver Bedarf an digitalen Lösungen auf verschiedenen Verwaltungsebenen, von kommunaler bis zur Bundesebene. Die oft nicht klar abgrenzbaren Domänen der Akteure erschwert zudem eine präzise Zuordnung derer GovTech-Lösungen. \parencite{ThePoliticalEconomyofGovTech} Diese Faktoren machen eine strukturelle Analyse der inhaltlichen Beziehungen zwischen den einzelnen Akteuren im GovTech-Ökosystem besonders herausfordernd. Dennoch bietet gerade diese Komplexität ein interessantes Forschungsfeld, um die Dynamik und Entwicklung dieses innovativen Sektors zu verstehen und dessen Potenzial für die Modernisierung der öffentlichen Verwaltung zu erfasse.\parencite{Haug2024}
+
+Die Identifikation zentraler Akteure ist entscheidend für das Erkennen von Innovationstreibern, Brückenbauern und struktureller Löcher in diesem Netzwerk. Die Analyse der Netzwerkstruktur kann zudem Aufschluss über die Stabilität und Resilienz des Ökosystems geben. 
+
+\subsection{Forschungsziel}
+Die vorliegende Arbeit widmet sich eben jender Struktur des GovTech-Ökosystems in Deutschland, einem dynamischen und zunehmend wichtigen Bereich an der Schnittstelle von Technologie und öffentlicher Verwaltung. Im Zentrum der Analyse steht die Frage nach den Beziehungen und Funktionsweisen dieses komplexen Netzwerks. Durch die Anwendung von Methoden der sozialen Netzwerkanalyse auf Daten, die auf der beruflichen Plattform LinkedIn gesammelt wurden, zielt die Studie darauf ab, ein tiefgreifendes Verständnis der Beziehungen und Interaktionen zwischen den verschiedenen Akteuren im GovTech-Bereich zu erlangen. Daraus läßt sich folegende Forschungsfrage ableiten:
+
+\say{Wie ist das GovTech-Netzwerk in Deutschland strukturiert, welche Akteure nehmen zentrale Positionen ein, welche Muster der Zusammenarbeit und des Wissensaustauschs lassen sich zwischen den verschiedenen Beteiligten erkennen, und welche strukturellen Lücken sind im Netzwerk identifizierbar?}
+
+
+\section{Hintergrund}
+\subsection{GovTech-Landschaft in Deutschland}
+Die GovTech-Landschaft in Deutschland hat in den letzten Jahren eine bemerkenswerte Entwicklung durchlaufen. GovTech, kurz für Government Technology, umfasst Technologien, digitale Produkte und Lösungen, die speziell für den öffentlichen Sektor entwickelt werden. Diese Branche gewinnt zunehmend an Bedeutung, da sie innovative Ansätze zur Modernisierung und Digitalisierung der öffentlichen Verwaltung bietet.
+
+Ein zentrales Element der deutschen GovTech-Szene ist der jährlich stattfindende GovTech-Gipfel, der vom Handelsblatt und Possible (ehemals PUBLIC Deutschland) initiiert wurde. Diese Veranstaltung hat sich zum wichtigsten Treffpunkt für Entscheidungsträger aus Politik, Startups und Verwaltung entwickelt. 
+
+Trotz des wachsenden Interesses und der zunehmenden Bedeutung von GovTech-Lösungen gibt es noch Herausforderungen. Dazu gehören die komplexen Beschaffungsprozesse der öffentlichen Hand, die oft eine Hürde für junge Unternehmen darstellen, sowie der Mangel an Überblick über die vielfältige GovTech-Landschaft.
+
+Die GovTech-Landschaft in Deutschland befindet sich in einer dynamischen Entwicklungsphase. Momentan lass sich XXX GovTech Unternehmen zählen. Mit zunehmendem Fokus auf die Digitalisierung der öffentlichen Verwaltung und wachsendem Interesse an innovativen Lösungen ist zu erwarten, dass dieser Sektor in den kommenden Jahren weiter an Bedeutung gewinnen wird.
+\subsection{Netzwerktheorie und ihre Anwendung auf Unternehmensökosysteme}
+Die Netzwerktheorie bietet einen robusten Rahmen für die Analyse komplexer Beziehungen und Interaktionen in Unternehmensökosystemen. Grundlegend für diesen Ansatz ist die Konzeptualisierung von Ökosystemen als Netzwerke, in denen Akteure (Knoten) durch verschiedene Arten von Beziehungen (Kanten) verbunden sind \parencite{Battistella2013}. Diese Perspektive ermöglicht es, die Struktur und Dynamik von Ökosystemen quantitativ zu erfassen und zu analysieren.
+
+Ein zentrales Konzept in der Anwendung der Netzwerktheorie auf Unternehmensökosysteme ist die Identifikation von Schlüsselakteuren und strukturellen Positionen. Hierbei spielen Zentralitätsmaße eine wichtige Rolle, die die relative Bedeutung von Akteuren im Netzwerk quantifizieren \parencite{Freeman1978}. Beispielsweise kann die Betweenness-Zentralität Akteure identifizieren, die als Brücken zwischen verschiedenen Teilnetzwerken fungieren und somit eine wichtige Rolle bei der Integration des Ökosystems spielen \parencite{Burt2004}.
+
+Die Analyse der Netzwerkstruktur kann auch Aufschluss über die Robustheit und Anpassungsfähigkeit des Ökosystems geben. Dichte und gut vernetzte Ökosysteme können einerseits den Informations- und Ressourcenfluss erleichtern, andererseits aber auch zu einer gewissen Rigidität führen \parencite{Uzzi1997}. Im Gegensatz dazu können Ökosysteme mit einer ausgewogenen Mischung aus starken und schwachen Verbindungen sowohl Stabilität als auch Innovationspotenzial bieten \parencite{Granovetter1973}.
+
+Die Netzwerktheorie ermöglicht es auch, die Grenzen von Ökosystemen zu untersuchen und die Verbindungen zwischen verschiedenen Ökosystemen zu analysieren. Dies ist besonders relevant in einer zunehmend vernetzten Wirtschaft, in der Unternehmen oft in mehreren, sich überschneidenden Ökosystemen agieren \parencite{Shipilov2015}.
+\subsection{LinkedIn als Datenquelle}
+LinkedIn bietet sich als ideale Plattform für die strukturelle Analyse des GovTech-Ökosystems in Deutschland an. Als professionelles Netzwerk spiegelt es die Verbindungen und Interaktionen zwischen Akteuren im GovTech-Bereich wider und ermöglicht tiefe Einblicke in die Struktur und Dynamik dieses Sektors.
+
+Die Architektur LinkedIns  als socialmedia Plattform ermöglicht es die Nutzeraktivitäten, wie das Teilen von Beiträgen und Interaktionen, Rückschlüsse auf Wissensaustausch und Kommunikationsflüsse innerhalb des Netzwerks zu ziehen. Dies ist besonders relevant für das Verständnis der Dynamik und Entwicklung des jungen GovTech-Sektors. Durch das Scraping von LinkedIn-Daten lässt sich eine detaillierte Kartierung des GovTech-Ökosystems erstellen, die sowohl formale Strukturen als auch informelle Beziehungen abbildet.\parencite{Sachini2022}
+
+\section{Methodik}
+
+\subsection{Theoretische Fundierung der Datenerhebung}
+
+Die Wahl der Methodik zur Datenerhebung basiert auf fundierten theoretischen Überlegungen. Web Scraping hat sich in der Forschung als effektive Methode zur Datengewinnung im Kontext von Social-Media-Netzwerkanalysen etabliert. Insbesondere für die Analyse von Geschäftsnetzwerken bietet LinkedIn eine reichhaltige Datenquelle, da die Plattform primär für professionelle Vernetzung genutzt wird.
+
+
+\subsection{Datenerhebung mittels Web Scraping}
+
+Für die Datenerhebung und -verarbeitung der GovTech-Profile wurde ein robuster und skalierbarer Techstack entwickelt. Dieser basiert auf bewährten Technologien und Best Practices der Softwareentwicklung. Die Wahl der einzelnen Komponenten erfolgte unter Berücksichtigung ihrer Leistungsfähigkeit, Flexibilität und Kompatibilität.
+
+\subsubsection{Techstack und Prozessablauf}
+
+Der gesamte Datenerhebungsprozess ist in Docker-Containern gekapselt, was eine konsistente Entwicklungs- und Produktionsumgebung gewährleistet. Diese Containerisierung ermöglicht nicht nur eine einfache Skalierung, sondern auch eine hohe Reproduzierbarkeit der Ergebnisse.
+
+Kernkomponenten des Techstacks:
+
+\begin{itemize}
+    \item \textbf{Containerisierung:} Docker
+    \item \textbf{Datenbank:} PostgreSQL
+    \item \textbf{Programmiersprache:} Python
+    \item \textbf{Web Scraping:} Inoffizielle LinkedIn API \parencite{tomquirk2023}
+    \item \textbf{Orchestrierung:} Ansible für Deployment und Konfiguration
+\end{itemize}
+
+Der Datenerhebungsprozess gliedert sich in mehrere aufeinanderfolgende Schritte:
+
+\begin{enumerate}
+    \item \textbf{Initialisierung:} Ausführung des Setup-Playbooks mittels Ansible zur Initialisierung der Entwicklungsumgebung.
+    \item \textbf{Datenbankaufbau:} Start von PostgreSQL und Erstellung des Datenbankschemas.
+    \item \textbf{Scraping-Prozess:} Extraktion von Profildaten der GovTech-Unternehmen mittels Python-basiertem Scraper.
+    \item \textbf{Datenverarbeitung:} Identifikation von Erwähnungen und Verlinkungen zwischen Unternehmen.
+    \item \textbf{Datenspeicherung:} Speicherung der verarbeiteten Daten in der PostgreSQL-Datenbank.
+    \item \textbf{Aktivitätsbündelung:} Zusammenführung von Post-Aktivitäten der Unternehmen und ihrer Gründer.
+\end{enumerate}
+
+Diese strukturierte Vorgehensweise ermöglicht eine effiziente und zuverlässige Datenerhebung, die die Grundlage für die anschließende Netzwerkanalyse bildet.
+
+\subsubsection{Scraper-Architektur und -Prozesse}
+
+Die Architektur des LinkedIn-Scrapers wurde modular konzipiert, um eine hohe Flexibilität und Wartbarkeit zu gewährleisten. Sie besteht aus mehreren Hauptkomponenten, die in ihrer Gesamtheit einen effizienten und skalierbaren Scraping-Prozess ermöglichen.
+
+Hauptkomponenten des Scrapers:
+
+\begin{itemize}
+    \item \textbf{CookieController und CookieManager:} Verwaltung der Authentifizierung
+    \item \textbf{InputController und InputLoader:} Verarbeitung der Eingabedaten
+    \item \textbf{ScrapingController:} Orchestrierung des Scraping-Prozesses
+    \item \textbf{ScrapingLogic:} Implementierung der Scraping-Logik
+    \item \textbf{ScrapingDataManager:} Verwaltung der gescrapten Daten
+    \item \textbf{Logger:} Konsistentes Logging
+\end{itemize}
+
+Der Scraping-Prozess selbst läuft in mehreren Phasen ab. Nach der Initialisierung und Konfiguration des Systems erfolgt die Cookie-Verwaltung für die API-Authentifizierung. Anschließend werden die Eingabedaten verarbeitet, um die zu scrapenden LinkedIn-Profile zu identifizieren. Für jedes Profil wird dann der eigentliche Scraping-Vorgang durchgeführt, wobei kontinuierlich Daten gespeichert und Fehler behandelt werden.
+
+
+
+\subsubsection{Datenbankstruktur}
+
+Die Datenbankstruktur für das GovTech-Netzwerk-Projekt besteht aus sechs Haupttabellen:
+
+\paragraph{Persons}
+Diese Tabelle enthält Informationen über individuelle Personen im Netzwerk.
+
+\begin{table}[h]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Spaltenname} & \textbf{Datentyp} & \textbf{Beschreibung} \\
+\hline
+id & VARCHAR(255) & Primary Key \\
+publicId & VARCHAR(255) & Öffentliche ID \\
+trackingId & VARCHAR(255) & Tracking-ID \\
+profileId & VARCHAR(255) & Profil-ID \\
+occupation & VARCHAR(255) & Beruf/Position \\
+firstName & VARCHAR(100) & Vorname \\
+lastName & VARCHAR(100) & Nachname \\
+picture & VARCHAR(512) & URL des Profilbildes \\
+\hline
+\end{tabular}
+\end{table}
+
+\paragraph{Companies}
+Diese Tabelle speichert Informationen über Unternehmen im Netzwerk.
+
+\begin{table}[h]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Spaltenname} & \textbf{Datentyp} & \textbf{Beschreibung} \\
+\hline
+id & VARCHAR(255) & Primary Key \\
+url & VARCHAR(512) & URL des Firmenprofils \\
+fullName & VARCHAR(255) & Vollständiger Firmenname \\
+image & VARCHAR(512) & URL des Firmenlogos \\
+followers & INT & Anzahl der Follower \\
+\hline
+\end{tabular}
+\end{table}
+
+\paragraph{Person2Company}
+Diese Tabelle stellt die Beziehung zwischen Personen und Unternehmen dar.
+
+\begin{table}[h]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Spaltenname} & \textbf{Datentyp} & \textbf{Beschreibung} \\
+\hline
+personId & VARCHAR(255) & Fremdschlüssel zu Persons \\
+companyId & VARCHAR(255) & Fremdschlüssel zu Companies \\
+\hline
+\end{tabular}
+\end{table}
+
+\paragraph{Posts}
+Diese Tabelle enthält Informationen über einzelne Posts im Netzwerk.
+
+\begin{table}[h]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Spaltenname} & \textbf{Datentyp} & \textbf{Beschreibung} \\
+\hline
+id & VARCHAR(255) & Primary Key (aus URN) \\
+text & TEXT & Inhalt des Posts \\
+url & VARCHAR(512) & URL des Posts \\
+postedAtTimestamp & BIGINT & Zeitstempel des Postings \\
+postedAtISO & TIMESTAMP & ISO-formatierter Zeitpunkt \\
+\hline
+\end{tabular}
+\end{table}
+
+\paragraph{Author2Post}
+Diese Tabelle verknüpft Autoren (Personen oder Unternehmen) mit ihren Posts.
+
+\begin{table}[h]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Spaltenname} & \textbf{Datentyp} & \textbf{Beschreibung} \\
+\hline
+authorId & VARCHAR(255) & Fremdschlüssel zu Persons oder Companies \\
+postId & VARCHAR(255) & Fremdschlüssel zu Posts \\
+\hline
+\end{tabular}
+\end{table}
+
+\paragraph{Attributes (Mentions)}
+Diese Tabelle speichert Informationen über Erwähnungen in Posts.
+
+\begin{table}[h]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Spaltenname} & \textbf{Datentyp} & \textbf{Beschreibung} \\
+\hline
+id & VARCHAR(255) & Primary Key \\
+postId & VARCHAR(255) & Fremdschlüssel zu Posts \\
+start & INT & Startposition der Erwähnung \\
+length & INT & Länge der Erwähnung \\
+reference & VARCHAR(255) & ID der erwähnten Person oder Firma \\
+\hline
+\end{tabular}
+\end{table}
+\subsection{Netzwerkanalyse}
+
+Die Netzwerkanalyse des GovTech-Ökosystems basiert auf einem komplexen Verständnis von Akteuren und deren Interaktionen. Ein Akteur in diesem Kontext kann entweder ein Unternehmen selbst oder ein Angestellter sein. Dabei unterscheiden wir zwischen internen Akteuren des GovTech-Netzwerks (GovTech-Unternehmen oder deren Mitarbeiter) und externen Akteuren (z.B. Behörden, Politiker oder andere Unternehmen außerhalb des GovTech-Bereichs).
+
+Die Netzwerkstruktur wird durch Verlinkungen zwischen den Akteuren definiert. Jede Verlinkung, sei es eine Erwähnung in einem Post, ein Kommentar oder eine direkte Verknüpfung, erzeugt eine Kante im Netzwerk. Diese Kanten repräsentieren die Beziehungen und Interaktionen zwischen den Akteuren.
+
+Für die aktuelle Analyse betrachten wir diese Kanten als ungewichtet und ungerichtet. In zukünftigen Analysen könnte jedoch eine Gewichtung der Kanten implementiert werden, um die Intensität und Qualität der Beziehungen genauer abzubilden. Mögliche Gewichtungsfaktoren könnten sein:
+
+\begin{itemize}
+    \item Art des Akteurs (Unternehmen vs. Angestellter)
+    \item Typ der Interaktion (Verlinkung, Like, Kommentar)
+    \item Häufigkeit der Interaktionen
+    \item Reichweite und Einfluss des verlinkenden Akteurs
+\end{itemize}
+
+Die Netzwerkanalyse umfasst verschiedene Metriken zur Charakterisierung der Netzwerkstruktur:
+
+\begin{itemize}
+    \item Zentralitätsmaße (Degree-, Betweenness-, Eigenvector-Zentralität)
+    \item Clustering-Koeffizient
+    \item Pfadlängen und Durchmesser des Netzwerks
+    \item Identifikation von Schlüsselakteuren und Brückenakteuren
+\end{itemize}
+
+
+\subsection{Visualisierung der Daten}
+
+Die Visualisierung der Netzwerkdaten spielt eine entscheidende Rolle für das Verständnis und die Interpretation der Ergebnisse. Wir nutzen verschiedene gängige Methoden zur Darstellung des GovTech-Netzwerks:
+
+\begin{enumerate}
+    \item \textbf{Knotenpunkt-Kanten-Diagramme:} Diese klassische Netzwerkvisualisierung stellt Akteure als Knoten und Beziehungen als Kanten dar. Wir verwenden Algorithmen wie Fruchterman-Reingold oder ForceAtlas2 zur optimalen Anordnung der Knoten.
+    
+    \item \textbf{Heatmaps:} Zur Darstellung der Interaktionsintensität zwischen verschiedenen Akteuren oder Gruppen von Akteuren.
+    
+    \item \textbf{Circos-Plots:} Diese kreisförmigen Diagramme eignen sich besonders gut, um Beziehungen zwischen verschiedenen Kategorien von Akteuren zu visualisieren.
+    
+    \item \textbf{Ego-Netzwerke:} Für die Darstellung der direkten Verbindungen einzelner wichtiger Akteure.
+    
+    \item \textbf{Dynamische Netzwerkvisualisierungen:} Zur Veranschaulichung der zeitlichen Entwicklung des Netzwerks.
+\end{enumerate}
+
+Bei der Visualisierung nutzen wir verschiedene visuelle Attribute zur Kodierung zusätzlicher Informationen:
+
+\begin{itemize}
+    \item \textbf{Knotengröße:} Repräsentiert die Zentralität oder Wichtigkeit eines Akteurs.
+    \item \textbf{Knotenfarbe:} Unterscheidet zwischen internen und externen Akteuren oder verschiedenen Typen von Akteuren.
+    \item \textbf{Kantendicke:} Stellt die Stärke oder Häufigkeit der Interaktionen dar.
+    \item \textbf{Kantenfarbe:} Kann verschiedene Arten von Beziehungen kodieren.
+\end{itemize}
+
+Interaktive Visualisierungen ermöglichen es den Nutzern, das Netzwerk zu erkunden, in bestimmte Bereiche zu zoomen und zusätzliche Informationen zu einzelnen Akteuren oder Beziehungen abzurufen. Tools wie Gephi, NetworkX in Kombination mit Matplotlib, oder D3.js für webbasierte Visualisierungen kommen zum Einsatz.
+
+
+\section{Ergebnisse und Diskussion}
+\subsection{Darstellung des GovTech-Netzwerks}
+\subsection{Identifikation von Schlüsselakteuren und Clustern}
+\subsection{Interpretation der Netzwerkstruktur}
+
+\section{Schlussfolgerungen und Ausblick}
+
+%\bibliographystyle{plainnat}
+%\bibliography{references}
+\printbibliography
+
+\end{document}

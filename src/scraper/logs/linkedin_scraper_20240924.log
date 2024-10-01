@@ -1,0 +1,134 @@
+2024-09-24 13:55:36,633 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 13:55:36,633 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 13:55:36,633 - logger - INFO - Script directory: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/src/scraper
+2024-09-24 13:55:36,633 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 13:55:36,634 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 13:55:36,634 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-24 13:55:36,634 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 13:55:36,634 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 13:55:36,634 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 13:55:36,634 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 13:55:36,634 - logger - INFO - Cookie jar created for 'fox'
+2024-09-24 13:55:36,634 - logger - INFO - Cookie jar successfully initialized.
+2024-09-24 13:55:36,634 - logger - INFO - Performing scraping with cookie jar: <RequestsCookieJar[<Cookie li_gc=MTswOzE3MjcwOTAxMDI7MjswMjG5DvqbyXjbxG0kQY9aZenih+GIlKRFL2oFMKJmxvYT9g== for .linkedin.com/>, <Cookie __cf_bm=1V7meWjAM7HbarnpZt3NHD3kFyCWb0d_6.sQtW8dOcI-1727090102-1.0.1.1-QJk6aOa0TAXMVHFNP194w9riI8lL041Sjmsbp1tYoGwbp6q1KfJEpqR_xM065qptl0MinaZFhSTkHPO2P0T02Q for .linkedin.com/>, <Cookie liap=true for .linkedin.com/>, <Cookie bcookie="v=2&5f8ff08a-5683-4dd2-8c2d-7d7cabcec884" for .linkedin.com/>, <Cookie lidc="b=VB23:s=V:r=V:a=V:p=V:g=5233:u=7:x=1:i=1727090112:t=1727176512:v=2:sig=AQHQp6K5118mZXmypZQs86WBe5VyI_mR" for .linkedin.com/>, <Cookie dfpfpt=579c4db7effe4acf836be865695db1c5 for .linkedin.com/>, <Cookie li_mc=MTsyMTsxNzI3MDkwNzE0OzI7MDIxJt6U9T7ROQFmj/kFOvUW6Haddjks5NEUEPgqz8UYca4= for .linkedin.com/>, <Cookie lang=v=2&lang=de-de for .linkedin.com/>, <Cookie fptctx2=taBcrIH61PuCVH7eNCyH0OPzOrGnaCb%252f7mTjN%252fuIW2vMQJt65C33Re%252fHMRm1qZj%252f7anBuRfzVV6AFPPv4tydREQrWrFN0S4WiC0fpUlKE1YD0GxCIxjJ9EJkmJq%252bA3unWml%252f6f8XfLlAeK%252ffWnjz5CDRyxPHBGTmIzECAv6gYcTZBMJztTQ5DHBTMxWZW1L0p1zVpCeZEifop%252bQCF5qTCSmlZfLL5jGRXssRnlf2rYoSPKfLvzjGVvxHwFgKDhUuF7S9%252fSJmnZEST1mx7vqv%252fM8oXg2hUouAFKpIeC5oi9H99W%252fUf3VhQwE%252f8T%252f3EWQRRxwjU9OPDlt1CokGNFimVGoevcU242Nw6yA6P671jcE%253d for .linkedin.com/>, <Cookie li_alerts=e30= for www.linkedin.com/>, <Cookie li_rm=AQGB2MjRXCtevwAAAZIel5w0l9p-bFA3KHcTWdS7PGXGYCYARiLX3SOppA8Z-UjnrcoKaPPOKLsaS9sih38Mv7dhf8z95zxN6wbT5QEhikzefZAlGK5gf78h for .www.linkedin.com/>, <Cookie li_at=AQEDAVJgQ8sBDxOPAAABkh6XtmsAAAGSQqQ6a00AjfkBsWYBJ9FeZnBa6it7MYOG70iDUH24Nv_gcoImbzihaM6p6Np3cduho-S6D9vYN6EEVFlrCnCvGJD3t4ZF1sBO_lwD8SCxt7dYaJIc_PLgO0u_ for .www.linkedin.com/>, <Cookie JSESSIONID="ajax:1335431590107790393" for .www.linkedin.com/>, <Cookie bscookie="v=1&202409231115025d79185a-d4f2-4501-89aa-121989d69552AQH_OpIARutN5I5PSqCtvsT_cQh3zHeQ" for .www.linkedin.com/>, <Cookie timezone=Europe/Berlin for .www.linkedin.com/>, <Cookie li_theme=light for .www.linkedin.com/>, <Cookie li_theme_set=app for .www.linkedin.com/>]>
+2024-09-24 13:55:36,634 - logger - INFO - LinkedIn scraper finished
+2024-09-24 14:09:49,614 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:09:49,615 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:09:49,615 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:09:49,615 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:09:49,615 - logger - ERROR - File not found: ../../data/input.csv
+2024-09-24 14:09:49,615 - logger - ERROR - Failed to load input data.
+2024-09-24 14:09:49,615 - logger - ERROR - Failed to load input data. Exiting.
+2024-09-24 14:18:00,690 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:18:00,690 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:18:00,690 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:18:00,690 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:18:00,693 - logger - INFO - Successfully loaded 755 rows from ../../data/input.csv
+2024-09-24 14:18:00,693 - logger - INFO - Input data successfully loaded.
+2024-09-24 14:18:00,693 - logger - INFO - Loaded 755 input records.
+2024-09-24 14:18:00,693 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:18:00,693 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-24 14:18:00,693 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:18:00,693 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:18:00,693 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:18:00,693 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:18:00,694 - logger - INFO - Cookie jar created for 'fox'
+2024-09-24 14:18:00,694 - logger - INFO - Cookie jar successfully initialized.
+2024-09-24 14:18:00,694 - logger - INFO - Performing scraping.
+2024-09-24 14:18:00,694 - logger - INFO - LinkedIn scraper finished
+2024-09-24 14:27:20,546 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:27:20,546 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:27:20,546 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:27:20,546 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:28:19,724 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:28:19,724 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:28:19,724 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:28:19,724 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:28:42,149 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:28:42,149 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:28:42,149 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:28:42,149 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:31:09,545 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:31:09,546 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:31:09,546 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:31:09,546 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:31:09,547 - logger - INFO - Successfully loaded 756 rows from ../../data/input.csv
+2024-09-24 14:31:09,548 - logger - INFO - Found 438 LinkedIn profile links.
+2024-09-24 14:31:09,548 - logger - INFO - Successfully extracted 438 LinkedIn profile links.
+2024-09-24 14:31:09,548 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:31:09,548 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-24 14:31:09,549 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:31:09,549 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:31:09,549 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:31:09,549 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:31:09,549 - logger - INFO - Cookie jar created for 'fox'
+2024-09-24 14:31:09,549 - logger - INFO - Cookie jar successfully initialized.
+2024-09-24 14:31:09,549 - logger - INFO - Performing scraping.
+2024-09-24 14:31:09,550 - logger - INFO - LinkedIn scraper finished
+2024-09-24 14:31:55,507 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:31:55,507 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:31:55,507 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:31:55,507 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:31:55,509 - logger - INFO - Successfully loaded 756 rows from ../../data/input.csv
+2024-09-24 14:31:55,510 - logger - INFO - Found 702 LinkedIn profile links.
+2024-09-24 14:31:55,510 - logger - INFO - Successfully extracted 702 LinkedIn profile links.
+2024-09-24 14:31:55,510 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:31:55,510 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-24 14:31:55,510 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:31:55,510 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:31:55,510 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:31:55,510 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:31:55,511 - logger - INFO - Cookie jar created for 'fox'
+2024-09-24 14:31:55,511 - logger - INFO - Cookie jar successfully initialized.
+2024-09-24 14:31:55,511 - logger - INFO - Performing scraping.
+2024-09-24 14:31:55,511 - logger - INFO - LinkedIn scraper finished
+2024-09-24 14:38:19,006 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:38:19,007 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:38:19,007 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:38:19,007 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:38:19,008 - logger - INFO - Successfully loaded 756 rows from ../../data/input.csv
+2024-09-24 14:38:19,009 - logger - INFO - Found 702 LinkedIn profile links.
+2024-09-24 14:38:19,009 - logger - INFO - Successfully extracted 702 LinkedIn profile links.
+2024-09-24 14:38:19,010 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:38:19,010 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-24 14:38:19,010 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:38:19,010 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:38:19,010 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:38:19,010 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:38:19,010 - logger - INFO - Cookie jar created for 'fox'
+2024-09-24 14:38:19,011 - logger - INFO - Cookie jar successfully initialized.
+2024-09-24 14:38:19,011 - logger - INFO - Performing scraping.
+2024-09-24 14:41:39,550 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:41:39,550 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:41:39,550 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:41:39,550 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:41:39,552 - logger - INFO - Successfully loaded 756 rows from ../../data/input.csv
+2024-09-24 14:41:39,553 - logger - INFO - Found 702 LinkedIn profile links.
+2024-09-24 14:41:39,553 - logger - INFO - Successfully extracted 702 LinkedIn profile links.
+2024-09-24 14:41:39,553 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:41:39,553 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-24 14:41:39,553 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:41:39,553 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:41:39,553 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:41:39,553 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:41:39,554 - logger - INFO - Cookie jar created for 'fox'
+2024-09-24 14:41:39,554 - logger - INFO - Cookie jar successfully initialized.
+2024-09-24 14:41:39,554 - logger - INFO - Performing scraping.
+2024-09-24 14:41:39,557 - logger - INFO - LinkedIn scraper finished
+2024-09-24 14:43:21,112 - logger - INFO - Starting LinkedIn scraper
+2024-09-24 14:43:21,113 - logger - INFO - Iterate accounts while scraping: True
+2024-09-24 14:43:21,113 - logger - INFO - Input path: /home/robin/00_robin/00_daten/00_uni/005_jobs/02_digital_public/00_projekte/linkedin_network/data/input.csv
+2024-09-24 14:43:21,113 - logger - INFO - CSV path set to: ../../data/input.csv
+2024-09-24 14:43:21,115 - logger - INFO - Successfully loaded 756 rows from ../../data/input.csv
+2024-09-24 14:43:21,116 - logger - INFO - Found 698 LinkedIn profile links.
+2024-09-24 14:43:21,116 - logger - INFO - Successfully extracted 698 LinkedIn profile links.
+2024-09-24 14:43:21,116 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:43:21,116 - logger - INFO - CookieManager initialized with file: linkedin_cookies.json
+2024-09-24 14:43:21,117 - logger - INFO - Cookies loaded successfully from linkedin_cookies.json
+2024-09-24 14:43:21,117 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:43:21,117 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:43:21,117 - logger - INFO - Listing all stored cookie keys: ['fox']
+2024-09-24 14:43:21,117 - logger - INFO - Cookie jar created for 'fox'
+2024-09-24 14:43:21,117 - logger - INFO - Cookie jar successfully initialized.
+2024-09-24 14:43:21,117 - logger - INFO - Performing scraping.
+2024-09-24 14:43:21,120 - logger - INFO - LinkedIn scraper finished

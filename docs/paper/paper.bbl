@@ -1,0 +1,477 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Battistella2013}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7b3b07192982373404755a8157ff49b6}{%
+           family={Battistella},
+           familyi={B\bibinitperiod},
+           given={Cinzia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=876df8c0f238b3fada5a2248afc2e29a}{%
+           family={Colucci},
+           familyi={C\bibinitperiod},
+           given={Katia},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11908f1608089c155f81667a274842b4}{%
+           family={De\bibnamedelima Toni},
+           familyi={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Alberto\bibnamedelima F},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e82ffaf1b3530d9c7cfe044735bffaf7}{%
+           family={Nonino},
+           familyi={N\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8a71a0230eb8685287b1732a815c4da0}
+      \strng{fullhash}{01810b4a97c7e7c89d523e5dfa9e730e}
+      \strng{bibnamehash}{8a71a0230eb8685287b1732a815c4da0}
+      \strng{authorbibnamehash}{8a71a0230eb8685287b1732a815c4da0}
+      \strng{authornamehash}{8a71a0230eb8685287b1732a815c4da0}
+      \strng{authorfullhash}{01810b4a97c7e7c89d523e5dfa9e730e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{number}{6}
+      \field{title}{Methodology of business ecosystems network analysis: A case study in Telecom Italia Future Centre}
+      \field{volume}{80}
+      \field{year}{2013}
+      \field{pages}{1194\bibrangedash 1210}
+      \range{pages}{17}
+    \endentry
+    \entry{Bogumil2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9db3bd5eb657fa819b868338bb2c959c}{%
+           family={Bogumil},
+           familyi={B\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=548e3ce46d6dca125a99d2fd07b13642}{%
+           family={Grohs},
+           familyi={G\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6c02d3cd19f32c565f76bf9a4f65c99}{%
+           family={Kuhlmann},
+           familyi={K\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{05ce6f070109862373177f109044cf07}
+      \strng{fullhash}{05ce6f070109862373177f109044cf07}
+      \strng{bibnamehash}{05ce6f070109862373177f109044cf07}
+      \strng{authorbibnamehash}{05ce6f070109862373177f109044cf07}
+      \strng{authornamehash}{05ce6f070109862373177f109044cf07}
+      \strng{authorfullhash}{05ce6f070109862373177f109044cf07}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reflex - Ergebnissbericht}
+      \field{title}{Ergebnisse und Wirkungen kommunaler Verwaltungsmodernisierung in Deutschland – Eine Evaluation nach zehn Jahren Praxiserfahrung}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.tu-chemnitz.de/wirtschaft/bwl9/forschung/fprojekte/reflex/instReflex/ergebnisse/download/PVSSH37_07Bogumil.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.tu-chemnitz.de/wirtschaft/bwl9/forschung/fprojekte/reflex/instReflex/ergebnisse/download/PVSSH37_07Bogumil.pdf
+      \endverb
+    \endentry
+    \entry{Burt2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd355c0061f6dee85bc26b7564b0e4c0}{%
+           family={Burt},
+           familyi={B\bibinitperiod},
+           given={Ronald\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{fd355c0061f6dee85bc26b7564b0e4c0}
+      \strng{fullhash}{fd355c0061f6dee85bc26b7564b0e4c0}
+      \strng{bibnamehash}{fd355c0061f6dee85bc26b7564b0e4c0}
+      \strng{authorbibnamehash}{fd355c0061f6dee85bc26b7564b0e4c0}
+      \strng{authornamehash}{fd355c0061f6dee85bc26b7564b0e4c0}
+      \strng{authorfullhash}{fd355c0061f6dee85bc26b7564b0e4c0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American journal of sociology}
+      \field{number}{2}
+      \field{title}{Structural holes and good ideas}
+      \field{volume}{110}
+      \field{year}{2004}
+      \field{pages}{349\bibrangedash 399}
+      \range{pages}{51}
+    \endentry
+    \entry{Freeman1978}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=012eafed0334767d87ec2b33bacb3367}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Linton\bibnamedelima C},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{012eafed0334767d87ec2b33bacb3367}
+      \strng{fullhash}{012eafed0334767d87ec2b33bacb3367}
+      \strng{bibnamehash}{012eafed0334767d87ec2b33bacb3367}
+      \strng{authorbibnamehash}{012eafed0334767d87ec2b33bacb3367}
+      \strng{authornamehash}{012eafed0334767d87ec2b33bacb3367}
+      \strng{authorfullhash}{012eafed0334767d87ec2b33bacb3367}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Social networks}
+      \field{number}{3}
+      \field{title}{Centrality in social networks conceptual clarification}
+      \field{volume}{1}
+      \field{year}{1978}
+      \field{pages}{215\bibrangedash 239}
+      \range{pages}{25}
+    \endentry
+    \entry{Granovetter1973}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19600a6bee0d3a431e37dcbe16b17f50}{%
+           family={Granovetter},
+           familyi={G\bibinitperiod},
+           given={Mark\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{19600a6bee0d3a431e37dcbe16b17f50}
+      \strng{fullhash}{19600a6bee0d3a431e37dcbe16b17f50}
+      \strng{bibnamehash}{19600a6bee0d3a431e37dcbe16b17f50}
+      \strng{authorbibnamehash}{19600a6bee0d3a431e37dcbe16b17f50}
+      \strng{authornamehash}{19600a6bee0d3a431e37dcbe16b17f50}
+      \strng{authorfullhash}{19600a6bee0d3a431e37dcbe16b17f50}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American journal of sociology}
+      \field{number}{6}
+      \field{title}{The strength of weak ties}
+      \field{volume}{78}
+      \field{year}{1973}
+      \field{pages}{1360\bibrangedash 1380}
+      \range{pages}{21}
+    \endentry
+    \entry{Haug2024}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2b7f8470766e69101f7ab79f06b72db3}{%
+           family={Nathalie\bibnamedelima Haug},
+           familyi={N\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Sorin\bibnamedelima Dan},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d890591a0435a1c288404dcaa6235af}{%
+           family={Mergel},
+           familyi={M\bibinitperiod},
+           given={Ines},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{b2df2f78548ea3b4bab79343f8a57c4c}
+      \strng{fullhash}{b2df2f78548ea3b4bab79343f8a57c4c}
+      \strng{bibnamehash}{b2df2f78548ea3b4bab79343f8a57c4c}
+      \strng{authorbibnamehash}{b2df2f78548ea3b4bab79343f8a57c4c}
+      \strng{authornamehash}{b2df2f78548ea3b4bab79343f8a57c4c}
+      \strng{authorfullhash}{b2df2f78548ea3b4bab79343f8a57c4c}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Public Management Review}
+      \field{number}{7}
+      \field{title}{Digitally-induced change in the public sector: a systematic review and research agenda}
+      \field{volume}{26}
+      \field{year}{2024}
+      \field{pages}{1963\bibrangedash 1987}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1080/14719037.2023.2234917
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/14719037.2023.2234917
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/14719037.2023.2234917
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/14719037.2023.2234917
+      \endverb
+    \endentry
+    \entry{Niehaves2024}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ecd704b9a0ba95252bbf1795e3ac3cb8}{%
+           family={Niehaves},
+           familyi={N\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d537eb69fd010504b2ae3a3b91c5680}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Luca\bibnamedelima T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc8ee59bda177d9e362590b53c6f6417}{%
+           family={Klassen},
+           familyi={K\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universität Bremen}%
+      }
+      \strng{namehash}{f8615f11c66257f40ddb3a9509a9da1e}
+      \strng{fullhash}{f8615f11c66257f40ddb3a9509a9da1e}
+      \strng{bibnamehash}{f8615f11c66257f40ddb3a9509a9da1e}
+      \strng{authorbibnamehash}{f8615f11c66257f40ddb3a9509a9da1e}
+      \strng{authornamehash}{f8615f11c66257f40ddb3a9509a9da1e}
+      \strng{authorfullhash}{f8615f11c66257f40ddb3a9509a9da1e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{note}{Sommersemester 2024}
+      \field{series}{03-IBAA-GOVTEC}
+      \field{title}{Government Technology}
+      \field{type}{Vorlesung}
+      \field{year}{2024}
+    \endentry
+    \entry{Sachini2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b04ac48d42409f00c83083c256862a18}{%
+           family={Sachini},
+           familyi={S\bibinitperiod},
+           given={Evi},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1407df61fb8135931f8b61f2e39c2dc1}{%
+           family={Sioumalas-Christodoulou},
+           familyi={S\bibinithyphendelim C\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d5181d464586c3922e36487f1f2b064}{%
+           family={Bouras},
+           familyi={B\bibinitperiod},
+           given={Nikias},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=365dea4fecbcf028643a027787e59c08}{%
+           family={Karampekios},
+           familyi={K\bibinitperiod},
+           given={Nikolaos},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5bb1c3c247d53c76c7728b37361939f}
+      \strng{fullhash}{0f54cc15d4c4669c9b2201d160f98543}
+      \strng{bibnamehash}{d5bb1c3c247d53c76c7728b37361939f}
+      \strng{authorbibnamehash}{d5bb1c3c247d53c76c7728b37361939f}
+      \strng{authornamehash}{d5bb1c3c247d53c76c7728b37361939f}
+      \strng{authorfullhash}{0f54cc15d4c4669c9b2201d160f98543}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Innovation and Entrepreneurship}
+      \field{number}{1}
+      \field{title}{Lessons for science and technology policy? {Probing} the {Linkedin} network of an {RDI} organisation}
+      \field{volume}{11}
+      \field{year}{2022}
+      \field{pages}{53}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13731-022-00246-z
+      \endverb
+    \endentry
+    \entry{Shipilov2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d2e559a8404b713a94026f666caa280d}{%
+           family={Shipilov},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc9d58a1536522ceb54cf1ee9dd5e5ae}{%
+           family={Gawer},
+           familyi={G\bibinitperiod},
+           given={Annabelle},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{ac337d3d8770cdf77dd875bcf0fcd2df}
+      \strng{fullhash}{ac337d3d8770cdf77dd875bcf0fcd2df}
+      \strng{bibnamehash}{ac337d3d8770cdf77dd875bcf0fcd2df}
+      \strng{authorbibnamehash}{ac337d3d8770cdf77dd875bcf0fcd2df}
+      \strng{authornamehash}{ac337d3d8770cdf77dd875bcf0fcd2df}
+      \strng{authorfullhash}{ac337d3d8770cdf77dd875bcf0fcd2df}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{4}
+      \field{title}{Network dynamics and ecosystem performance}
+      \field{volume}{36}
+      \field{year}{2015}
+      \field{pages}{559\bibrangedash 583}
+      \range{pages}{25}
+    \endentry
+    \entry{ThePoliticalEconomyofGovTech}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d878ca89a52d332c65b3cab391242247}{%
+           family={Silve},
+           familyi={S\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14e1bb418657c3ee984b681c93285334}{%
+           family={Moszoro},
+           familyi={M\bibinitperiod},
+           given={Mariano},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {International Monetary Fund}%
+      }
+      \strng{namehash}{3c60e1c17d19896e7d5eb398fa776921}
+      \strng{fullhash}{3c60e1c17d19896e7d5eb398fa776921}
+      \strng{bibnamehash}{3c60e1c17d19896e7d5eb398fa776921}
+      \strng{authorbibnamehash}{3c60e1c17d19896e7d5eb398fa776921}
+      \strng{authornamehash}{3c60e1c17d19896e7d5eb398fa776921}
+      \strng{authorfullhash}{3c60e1c17d19896e7d5eb398fa776921}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9798400246500}
+      \field{journaltitle}{IMF Notes}
+      \field{number}{003}
+      \field{title}{The Political Economy of GovTech}
+      \field{volume}{2023}
+      \field{year}{2023}
+      \field{pages}{A001}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.5089/9798400246500.068.A001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.elibrary.imf.org/view/journals/068/2023/003/article-A001-en.xml
+      \endverb
+      \verb{url}
+      \verb https://www.elibrary.imf.org/view/journals/068/2023/003/article-A001-en.xml
+      \endverb
+    \endentry
+    \entry{Uzzi1997}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9d3ae0030f24e3f195d893af719933f}{%
+           family={Uzzi},
+           familyi={U\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{e9d3ae0030f24e3f195d893af719933f}
+      \strng{fullhash}{e9d3ae0030f24e3f195d893af719933f}
+      \strng{bibnamehash}{e9d3ae0030f24e3f195d893af719933f}
+      \strng{authorbibnamehash}{e9d3ae0030f24e3f195d893af719933f}
+      \strng{authornamehash}{e9d3ae0030f24e3f195d893af719933f}
+      \strng{authorfullhash}{e9d3ae0030f24e3f195d893af719933f}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Administrative science quarterly}
+      \field{title}{Social structure and competition in interfirm networks: The paradox of embeddedness}
+      \field{year}{1997}
+      \field{pages}{35\bibrangedash 67}
+      \range{pages}{33}
+    \endentry
+  \enddatalist
+  \missing{tomquirk2023}
+\endrefsection
+\endinput
+

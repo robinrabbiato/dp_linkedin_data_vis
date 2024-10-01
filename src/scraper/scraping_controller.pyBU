@@ -1,0 +1,153 @@
+import re
+from scraping_logic import ScrapingLogic
+from scraping_data_manager import ScrapingDataManager
+from logger import default_logger as logger
+
+
+class ScrapingController:
+    """
+    Controls the scraping process for LinkedIn profiles.
+
+    This class manages the scraping logic and stores the scraped data.
+    """
+
+    def __init__(self, cookies, output_file):
+        """
+        Initializes the ScrapingController with cookies for LinkedIn API access and output file path.
+
+        Args:
+            cookies (RequestsCookieJar): Validated LinkedIn authentication cookies.
+            output_file (str): Path to the JSON file where scraped profiles will be stored.
+        """
+        self.data_manager = ScrapingDataManager(output_file)
+        self.scraping_logic = ScrapingLogic(cookies, self.data_manager)
+
+    def scrape_link(self, link):
+        """
+        Determines the type of LinkedIn link and calls the appropriate scraping method.
+
+        Args:
+            link (str): The LinkedIn profile or company URL.
+
+        Returns:
+            dict: The scraped data or None if the profile was already scraped or an error occurred.
+        """
+        public_id = self._extract_public_id(link)
+        if not public_id:
+            logger.error(f"Invalid LinkedIn URL: {link}")
+            return None
+
+        if self.data_manager.is_profile_scraped(public_id):
+            logger.info(f"Profile {public_id} has already been scraped. Skipping.")
+            return None
+
+        if "/in/" in link:
+            result = self._scrape_profile(public_id)
+        elif "/company/" in link:
+            result = self._scrape_company(public_id)
+        else:
+            logger.error(f"Unsupported LinkedIn URL type: {link}")
+            return None
+
+        if result:
+            self.data_manager.add_scraped_profile(public_id, result)
+            self.data_manager.log_current_state()
+            logger.info(f"Profile {public_id} scraped and saved.")
+        else:
+            logger.error(f"Failed to scrape profile {public_id}")
+        return result
+
+    def _extract_public_id(self, link):
+        """
+        Extracts the public ID from a LinkedIn URL.
+
+        Args:
+            link (str): The LinkedIn profile or company URL.
+
+        Returns:
+            str: The extracted public ID, or None if not found.
+        """
+        pattern = r"(?:https?:)?(?:\/\/)?(?:[\w]+\.)?linkedin\.com\/(?:in\/|company\/)([^\/\?\s]+)"
+        match = re.search(pattern, link)
+
+        if match:
+            return match.group(1)
+        else:
+            logger.error(f"Could not extract public ID from URL: {link}")
+            return None
+
+    def _scrape_profile(self, public_id):
+        """
+        Scrapes a LinkedIn user profile.
+
+        Args:
+            public_id (str): The public ID of the LinkedIn profile.
+
+        Returns:
+            dict: The scraped profile data.
+        """
+        return self.scraping_logic.scrape_profile(public_id)
+
+    def _scrape_company(self, public_id):
+        """
+        Scrapes a LinkedIn company profile.
+
+        Args:
+            public_id (str): The public ID of the LinkedIn company.
+
+        Returns:
+            dict: The scraped company data.
+        """
+        return self.scraping_logic.scrape_company(public_id)
+
+    def save_scraped_data(self):
+        """
+        Saves all scraped data to the specified output file.
+        """
+        self.data_manager.save_data()
+
+    def get_scraped_profile_count(self):
+        """
+        Returns the number of scraped profiles.
+
+        Returns:
+            int: The number of scraped profiles.
+        """
+        return self.data_manager.get_profile_count()
+
+    def log_scraping_stats(self):
+        """
+        Logs statistics about the scraping process.
+        """
+        logger.info(f"Total scraped profiles: {self.get_scraped_profile_count()}")
+        self.data_manager.log_current_state()
+
+    def perform_scraping(scraping_controller, input_controller):
+        """
+        Performs the scraping process.
+
+        Args:
+            scraping_controller (ScrapingController): Controller for managing scraping operations.
+            input_controller (InputController): Controller for managing input data.
+        """
+        total_profiles = 0
+        skipped_profiles = 0
+        scraped_profiles = 0
+
+        for profile_link in iter(input_controller.get_next_profile, None):
+            total_profiles += 1
+            logger.info(f"Processing profile {total_profiles}: {profile_link}")
+
+            result = scraping_controller.scrape_link(profile_link)
+
+            if result is None:
+                skipped_profiles += 1
+                logger.info(f"Skipped profile: {profile_link}")
+            else:
+                scraped_profiles += 1
+                logger.info(f"Successfully scraped profile: {profile_link}")
+
+        logger.info("Scraping process completed.")
+        logger.info(f"Total profiles processed: {total_profiles}")
+        logger.info(f"Profiles scraped: {scraped_profiles}")
+        logger.info(f"Profiles skipped: {skipped_profiles}")
