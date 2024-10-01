@@ -35,8 +35,8 @@
 
     - name: Wait for PostgreSQL to be healthy
       community.docker.docker_container_info:
-        name: linkedin_network-db-1
-      register: result
+        name: govtech_network_db
+        register: result
       until: result.container.State.Health.Status == "healthy"
       retries: 30
       delay: 10
