@@ -75,10 +75,10 @@
         msg: "SQL Error: {{ query_result.msg }}"
       when: query_result.failed
 
-    - name: Read initial data SQL script content
-      ansible.builtin.slurp:
-        src: "{{ sql_init_file }}"
-      register: init_sql_script
+    # - name: Read initial data SQL script content
+    #   ansible.builtin.slurp:
+    #     src: "{{ sql_init_file }}"
+    #   register: init_sql_script
 
     - name: Create initial data
       community.postgresql.postgresql_query:
