@@ -45,6 +45,9 @@
         state: present
         env_files: "{{ env_file }}"
 
+    - name: Debug container info
+      debug:
+        var: result
     - name: Wait for PostgreSQL to become ready
       ansible.builtin.wait_for:
         host: localhost
