@@ -139,7 +139,7 @@ class ScrapingController:
                 (total_profiles / total_number_of_profiles) * 100, 2
             )
             logger.info(
-                f"Profile {public_id} and its posts scraped. \n\t{percentage_processed}% of total profiles processed.\n"
+                f"Profile {public_id} and its posts processed. \n\t{percentage_processed}% of total profiles processed.\n"
             )
 
             time.sleep(delay)  # delay between scrapes
