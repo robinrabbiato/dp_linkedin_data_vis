@@ -45,13 +45,13 @@
         state: present
         env_files: "{{ env_file }}"
 
-    - name: Wait for PostgreSQL to be healthy
-      community.docker.docker_container_info:
-        name: govtech_network_db
-      register: result
-      until: result.container.State.Health.Status == "healthy"
-      retries: 30
-      delay: 10
+    #- name: Wait for PostgreSQL to be healthy
+    #  community.docker.docker_container_info:
+    #    name: govtech_network_db
+    #  register: result
+    #  until: result.container.State.Health.Status == "healthy"
+    #  retries: 30
+    #  delay: 10
 
     - name: Read SQL schema script content
       ansible.builtin.slurp:
@@ -96,4 +96,3 @@
       ansible.builtin.debug:
         msg: "SQL Error: {{ init_query_result.msg }}"
       when: init_query_result.failed
-
