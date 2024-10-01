@@ -8,63 +8,62 @@
     db_password: securepassword123
     postgres_db: govtech_network
     postgres_user: admin
-    venv_path: ./myenv
+    venv_path: "{{ playbook_dir }}/myenv"
+    docker_compose_file: "{{ playbook_dir }}/../docker-compose.yml"
+    sql_schema_file: "{{ playbook_dir }}/../sql/create_schema.sql"
+    sql_init_file: "{{ playbook_dir }}/../sql/empty_init.sql"
+    env_file: "{{ playbook_dir }}/../.env"
 
   tasks:
     - name: Create .env file
-      copy:
-        dest: ../.env
+      ansible.builtin.copy:
+        dest: "{{ env_file }}"
         content: |
           DB_PASSWORD={{ db_password }}
           POSTGRES_DB={{ postgres_db }}
           POSTGRES_USER={{ postgres_user }}
+        mode: "0600"
 
     - name: Create virtual environment
-      command: python3 -m venv {{ venv_path }}
+      ansible.builtin.command: python3 -m venv {{ venv_path }}
       args:
         creates: "{{ venv_path }}"
 
-    - name: Install psycopg2
-      pip:
-        name: psycopg2-binary
+    - name: Install required Python packages
+      ansible.builtin.pip:
+        name:
+          - psycopg2-binary
+          - sqlalchemy
         virtualenv: "{{ venv_path }}"
         state: present
 
     - name: Run docker-compose up
       community.docker.docker_compose_v2:
-        project_src: ..
+        project_src: "{{ playbook_dir }}/.."
         files:
-          - docker-compose.yml
+          - "{{ docker_compose_file | basename }}"
         state: present
-        env_files: .env
+        env_file: "{{ env_file }}"
 
     - name: Wait for PostgreSQL to become ready
-      wait_for:
+      ansible.builtin.wait_for:
         host: localhost
         port: 5432
         delay: 10
         timeout: 60
 
-    #- name: Wait for PostgreSQL to be healthy
-    #  community.docker.docker_container_info:
-    #    name: govtech_network_db
-    #  register: result
-    #  until: result.container.State.Health.Status == "healthy"
-    #  retries: 30
-    #  delay: 10
+    - name: Wait for PostgreSQL to be healthy
+      community.docker.docker_container_info:
+        name: govtech_network_db
+      register: result
+      until: result.container.State.Health.Status == "healthy"
+      retries: 30
+      delay: 10
 
-    - name: Read SQL script content
+    - name: Read SQL schema script content
       ansible.builtin.slurp:
-        src: "../sql/create_schema.sql"
-      register: sql_script
-
-    # - name: Create database schema
-    #   community.postgresql.postgresql_query:
-    #     db: "{{ postgres_db }}"
-    #     login_host: db
-    #     login_user: "{{ postgres_user }}"
-    #     login_password: "{{ db_password }}"
-    #     query: "{{ sql_script['content'] | b64decode }}"
+        src: "{{ sql_schema_file }}"
+      register: sql_schema_script
 
     - name: Create database schema
       community.postgresql.postgresql_query:
@@ -72,24 +71,36 @@
         login_host: localhost
         login_user: "{{ postgres_user }}"
         login_password: "{{ db_password }}"
-        query: "{{ sql_script['content'] | b64decode }}"
+        query: "{{ sql_schema_script['content'] | b64decode }}"
       register: query_result
-      ignore_errors: yes
+      failed_when:
+        - query_result.failed
+        - "'already exists' not in query_result.msg"
 
     - name: Display SQL error if any
-      debug:
+      ansible.builtin.debug:
         msg: "SQL Error: {{ query_result.msg }}"
-      when: query_result is failed
+      when: query_result.failed
 
     - name: Read initial data SQL script content
       ansible.builtin.slurp:
-        src: "empty_init.sql"
+        src: "{{ sql_init_file }}"
       register: init_sql_script
 
     - name: Create initial data
       community.postgresql.postgresql_query:
-        db: localhost
-        login_host: db
+        db: "{{ postgres_db }}"
+        login_host: localhost
         login_user: "{{ postgres_user }}"
         login_password: "{{ db_password }}"
         query: "{{ init_sql_script['content'] | b64decode }}"
+      register: init_query_result
+      failed_when:
+        - init_query_result.failed
+        - "'already exists' not in init_query_result.msg"
+
+    - name: Display SQL error for initial data if any
+      ansible.builtin.debug:
+        msg: "SQL Error: {{ init_query_result.msg }}"
+      when: init_query_result.failed
+
