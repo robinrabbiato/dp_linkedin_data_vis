@@ -1,8 +1,0 @@
-  {
-    "csv_file": "./linkedin_govtech.csv",
-    "APIFY_API_TOKEN": "pify_api_eF7wChNEwZGlvyo6E8xURKcY5vsexU1Ysuox",
-    "cookie_file": "./cookies.json",
-    "output_folder": "output",
-    "url_column": "Link",
-    "company_name_column": "Company"
-  }
