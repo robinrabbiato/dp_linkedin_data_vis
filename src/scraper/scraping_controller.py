@@ -126,6 +126,8 @@ class ScrapingController:
                     delay = 0  # no delay for skipped profiles
                 else:
                     logger.error(f"Failed to scrape profile: {profile_link}")
+                    logger.info("To prevent blocking, the scraping process will stop.")
+                    break
             else:
                 scraped_profiles += 1
                 logger.info(f"Successfully scraped profile: {profile_link}")
